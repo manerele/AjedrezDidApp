@@ -1,0 +1,371 @@
+<resources>
+    <string name="app_name">AjedrezDidApp</string>
+    <string name="indice_name">Indice</string>
+    <string name="button_validar">Validar</string>
+
+    <!-- Cabeceras de los activitys -->
+    <string name="title_activity_main">Ajedrez y Educación</string>
+    <string name="title_activity_contenidos">Contenidos Basicos</string>
+    <string name="title_activity_introduccion">Introducción</string>
+    <string name="title_activity_objetivos_generales">Objetivos Generales</string>
+    <string name="title_activity_objetivos_especificos">Objetivos Especificos</string>
+    <string name="title_activity_temporalizacion">Temporalizacion</string>
+    <string name="title_activity_actuacion">Actuacion</string>
+    <string name="title_activity_contenidos_medio">Contenidos de grado medio</string>
+    <string name="title_activity_metodologia">Metodologia</string>
+    <string name="title_activity_otras_actividades">Otras Actividades</string>
+    <string name="title_activity_login">Nuevo Usuario</string>
+
+    <!--Activity_main-->
+    <string name="nombre">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="validar">Validar</string>
+
+    <!-- errores  -->
+    <string name="error_campo_obligatorio">Campo obligatorio</string>
+    <string name="error_campo_numerico">Campo numérico</string>
+    <string name="error_datos_erroneos">Introduce valor mostrado arriba</string>
+
+    <!-- Usuario, clavem, mail -->
+    <string name="datos_usuario">USUARIO = Manuel  -  CLAVE = 1234</string>
+    <string name="etiqueta_usuario">Nombre</string>
+    <string name="etiqueta_clave_usuario">Clave</string>
+    <string name="checkBox_Crear">¿Desea crear nuevo usuario?</string>
+    <string name="etiqueta_mail">Mail</string>
+
+    <!-- Activity Indice -->
+    <string name="apartados">Apartados del Proyecto</string>
+    <string name="button_siguiente">Siguiente</string>
+    <string name="textView_vacio"></string>
+    <string name="textView_instruccion">Selecciona y pulsa "Siguiente"</string>
+
+    <!-- RadioButtons -->
+    <string name="radioButton_1">INTRODUCCIÓN</string>
+    <string name="radioButton_2">OBJETIVOS GENERALES</string>
+    <string name="radioButton_3">OBJETIVOS ESPECÍFICOS</string>
+    <string name="radioButton_4">TEMPORALIZACIÓN</string>
+    <string name="radioButton_5">ACTUACIÓN</string>
+    <string name="radioButton_6">CONTENIDOS DE INICIACIÓN</string>
+    <string name="radioButton_7">CONTENIDOS DE NIVEL MEDIO</string>
+    <string name="radioButton_8">METODOLOGÍA</string>
+    <string name="radioButton_9">ORGANIZACIÓN DE OTRAS ACTIVIDADES</string>
+
+
+    <!-- Textos para los textView -->
+    <!-- INTRODUCCION -->
+    <string name="textView_introducion_apartado">
+ \n
+\t\t\t\t        1. INTRODUCCION: \n \n
+
+\t\t\t\t    La práctica del ajedrez y su estudio constituye una herramienta muy útil en el
+proceso de educación, socialización e inserción de cualquier tipo de población y de
+segmentos muy variados tal como lo demuestran múltiples experiencias en centros
+hospitalarios de varios países. El ajedrez se ha consolidado como un excelente medio
+para el desarrollo intelectual, eleva la autoestima y la acción mental y proporciona
+placer en su práctica, todo ello aunado a su contribución en los procesos de
+socialización. \n
+\t\t\t\t    La propuesta dispone de una amplia experiencia en proyectos anteriores, que
+ofrecieron cursos de iniciación al ajedrez a jóvenes escolares de Las Palmas de Gran
+Canaria en edades comprendidas entre los 8 a 14 años. Los cursos persiguen
+principalmente un primer acercamiento al juego tratándose aspectos básicos del
+mismo. Todo ello comportará mejoras en aspectos intelectual, cognitivo, social, y
+autoestima.
+
+    </string>
+
+    <!-- OBJETIVOS GENERALES -->
+    <string name="textView_objetivos_generales">
+ \n
+        2. OBJETIVOS GENERALES \n \n
+
+1. Proponer el ajedrez como una herramienta que incentive sobre todo el aspecto
+social y de integración del juego. \n\n
+
+2. Potenciar el desarrollo cognitivo y aprendizaje, que favorezcan el desarrollo de
+habilidades, destrezas y adquisición de conocimientos autónomos. \n\n
+
+3. Impulsar el espíritu crítico y participativo del alumno. \n\n
+
+4. Desarrollar la capacidad de comunicarse, cooperación y colaboración con
+hábitos de convivencia. \n\n
+
+5. Formación integral de personas autónomas y responsables. \n\n
+
+6. Utilizar el método científico a partir de reglas determinadas de observación de la
+realidad, emisión de hipótesis y su contrastación. \n\n
+
+7. Relacionar los contenidos con áreas como Matemáticas, Ciencias o Informática
+(yen general las Nuevas Tecnologías). \n\n
+
+    </string>
+
+    <!-- OBJETIVOS ESPECIFICOS -->
+    <string name="textView_objetivos_especificos">
+ \n
+\t\t\t\t        3. OBJETIVOS ESPECIFICOS \n \n
+
+1. Llegar a todos los jóvenes objeto de este proyecto en los centros escolares de
+Las Palmas de Gran Canaria en horario de actividades extraescolares, que no
+disponen en dicho centro de otras actividades que fomenten y favorezcan su
+capacidad intelectual. \n \n
+2. Fomentar hábitos sanos y de desarrollo intelectual con motivación y especial
+tratamiento de intereses personales. \n \n
+3. Potenciar el desarrollo psicológico y de personalidad del alumno. \n \n
+4. Incentivar la reflexión, toma de decisiones, lógica. \n \n
+5. Interpretar situaciones localizadas y planes de juego, que contribuyen al
+autoconocimiento. \n \n
+6. Aportar conocimientos básicos de aperturas, medio juego y finales, historia del
+ajedrez, campeones del mundo, en definitiva, crear una incipiente cultura
+ajedrecística. \n \n
+7. Fomentar la convivencia y respeto con los otros y respeto a sus opiniones. \n \n
+8. Conocer y respetar las reglas básicas del ajedrez. \n \n
+9. Valorar la concepción actual del juego como resultado de una serie de procesos \n
+de cambio en diferentes momentos históricos con proyección en el futuro. \n \n
+perseverancia en la práctica del ajedrez. \n \n
+11. Producir mensajes orales y escritos, haciendo uso de los códigos específicos
+del ajedrez, para conseguir una comunicación fluida y satisfactoria, mostrando una
+actitud de respeto e interés por comprender y hacerse comprender. \n \n
+12. Comprender y apreciar las posibilidades del ajedrez como medio de expresión
+de vivencias, sentimientos e ideas, superando inhibiciones y apreciando su
+contribución al equilibrio y bienestar personal.
+
+    </string>
+
+    <!-- TEMPORALIZACION -->
+    <string name="textView_temporalizacion">
+ \n
+\t\t\t\t        4. TEMPORALlZACION \n \n
+
+\t\t\t\t    Las actividades de iniciación tendrán una duración de ocho meses, desde
+octubre de 2018 a mayo de 2019, y por tanto se extenderá durante el periodo que
+transcurre en el curso escolar 2018/2019 de enseñanza primaria.  \n\n
+
+\t\t\t\t    Asimismo, esta temporalización de un curso se considera suficiente para la adquisición de los
+conocimientos básicos, y la obtención de los objetivos generales y específicos
+desarrollados en este proyecto.  \n\n
+
+\t\t\t\t    Se propone, antes de la finalización del proyecto o tras
+ella (abril, mayo o junio), una simultánea escolar donde se den cita los intervinientes
+en las actividades, así como cualquier otro escolar que desee participar. Dicha
+simultánea o acto que se considere oportuno podría integrarse en el marco de las
+actividades con motivo de las "Fiestas de San Juan" de Las Palmas de Gran Canaria o
+como preludio de las mismas. Asimismo, quedamos a disposición del Instituto
+Municipal de Deportes de Las Palmas de Gran Canaria por si considerara oportuna
+alguna otra fecha de organización de la referida simultánea escolar. \n\n
+
+\t\t\t\t    Las sesiones se desarrollan durante una mañana o una tarde a la semana, es
+decir, una sesión semanal en cada uno de los centros escolares que los demanden. \n\n
+
+\t\t\t\t    Los horarios preferentemente estarán acotados desde las 15:00 a las 18:00 horas con
+sesiones de una hora y media o dos horas (según disponibilidad y demanda)
+comprendidas en esas franjas horarias.De igual manera, caso que los centros soliciten
+sesiones en horario de mañanalos cursos serán desarrollados de igual manera adaptándose
+la Federación Insular de Ajedrez de Gran Canaria a las necesidades que nos trasladen dichos
+centros escolares.
+
+    </string>
+
+    <!-- ACTUACION -->
+    <string name="textView_actuacion">
+ \n
+\t\t\t\t        5. ACTUACION \n \n
+
+\t\t\t\t    Actuaremos en el ámbito del municipio de Las Palmas de Gran Canaria en los
+centros escolares públicos de enseñanza primaria que se acuerden con el
+Ayuntamiento de Las Palmas de Gran Canaria, y que preferentemente ofertarán
+cursos de iniciación a los cinco distritos de los que se compone el municipio. \n\n
+
+\t\t\t\t    Es nuestra intención fomentar eminentemente el aspecto lúdico, formativo,
+didáctico, pero sobre todo incentivar y centralizar nuestros esfuerzos en la motivación
+y aspectos de creación, afán de superación, etc. en definitiva, crear un ambiente
+propicio donde primen fundamentalmente el bienestar y confort de los alumnos. \n \n
+
+\t\t\t\t    Asimismo, tendremos en cuenta lo siguiente: \n\n
+
+\t\t\t\t    - Relación numérica Profesor/alumno: La experiencia nos aconseja incidir en
+ratios lo más reducidas posibles para garantizar la mejor calidad de la
+inserción de los conocimientos, aunque estos eminentemente lúdicos, no
+son el aspecto fundamental ni un fin en sí mismos. Así se establece como
+una relación idónea entre 12-15 alumnos por sesión. \n\n
+
+\t\t\t\t    - Sesiones: se propone que cada uno de los grupos que se conforme reciba
+una sesión semanal de dos horas u hora y media de duración cada una. \n\n
+
+\t\t\t\t    - Instalaciones: Se requiere instalaciones amplias para el tipo de grupo a
+acoger, y sobre todo con características de silencio y luminosidad esencial
+para un correcto desarrollo de las sesiones, y aprovechamiento satisfactorio
+de las mismas. \n\n
+
+\t\t\t\t    - Recursos: Es uno de los aspectos previos esenciales. Se debe contar con
+un material mínimo exigible, que en este caso se acentúa más aún debido a
+las singularidades de nuestra propuesta. Estará compuesto por un tableromural
+(labor expositiva), tableros y piezas (herramienta esencial), revistas,
+bibliografía, fotocopias, relojes, actas, planillas, etc. \n\n
+
+\t\t\t\t    - Intereses-Capacidad-Motivación: Son tres aspectos fundamentales para
+abordar un correcto desarrollo de la docencia. En un grupo de 12-15
+alumnos vamos a encontrar no sólo diferentes niveles de conocimiento
+(nulo, elemental, principiante), sino con desarrollos evolutivos y psicológicos
+muy dispares, que van a conformar el punto de partida desde donde se
+habrán de valorar una serie de capacidades iniciales, y desde donde se
+deben programar las capacidades que queremos que se adquieran. \n\n
+
+\t\t\t\t    Los técnicos encargados serán un grupo de monitores con titulaciones
+nacionales y regionales, o habilitaciones, que desarrollan actividades tanto de
+iniciación como de perfeccionamiento del ajedrez en edades escolares. Los mismos
+estarán avalados por la Federación Insular de Ajedrez de Gran Canaria, de quienes
+certificamos su absoluta idoneidad para desempeñar las actividades que se
+desarrollen en el marco de este proyecto.  \n\n
+
+\t\t\t\t    En este sentido, la mayoría de ellos ya han
+desempeñado las mismas para la Federación Insular de Ajedrez de Gran Canaria en
+anteriores campañas ya sean de índole insular o regional, y/o en clubes insulares que
+desarrollan habitualmente labores de promoción.
+
+    </string>
+
+    <!-- CONTENIDOS -->
+    <string name="textView_contenidos">
+ \n
+\t\t\t\t       6. CONTENIDOS DE INICIACiÓN  \n \n
+
+\t\t\t\t1. El Tablero \n
+• Descripción (casillas) \n
+• Colocación del tablero \n
+• Las columnas, las filas y las diagonales \n
+ \n
+\t\t\t\t2. La colocación de las piezas. \n
+• Distribución de las piezas \n
+ \n
+\t\t\t\t3. Los movimientos de las piezas \n
+• Peón \n
+• Torre (horizontal y vertical. Conceptos de filas y columnas) \n
+• Alfil (diagonal) \n
+• Dama (combinación de torre y alfil. Concepto de vertical, horizontal y diagonal) \n
+• Rey \n
+• Caballo (el salto) \n
+• Captura de las piezas. Amenazas y defensa. \n
+ \n
+\t\t\t\t4. El valor de las piezas (términos absolutos) \n
+• Cambios y cambios desiguales \n
+ \n
+\t\t\t\t5. El jaque y jaque mate \n
+• ¿Qué es el jaque? ¿Cómo lo eludimos? \n
+• ¿Qué es el jaque mate? \n
+ \n
+\t\t\t\t6. Jugadas especiales \n
+• Enroque (requisitos) \n
+• Captura al paso (cuando) \n
+• Promoción del peón \n
+ \n
+\t\t\t\t7. Mates básicos \n
+• Dos torres (concepto de aislamiento) \n
+• Dama (técnica) \n
+• Torre (esbozo de la técnica) \n
+• Otros mates (dos alfiles, alfil y caballo) \n
+• Ahogado \n
+ \n
+\t\t\t\t8. Anotación de la partida \n
+• Sistema algebraico \n
+ \n
+\t\t\t\t9. Conceptos: \n
+• Apertura, medio juego, final \n
+• Desarrollo \n
+• Centro \n
+• Tiempo \n
+• Decálogo de la apertura \n
+ \n
+\t\t\t\t10. Nociones de ataque y combinación: \n
+• Doble amenaza \n
+• Jaque descubierta \n
+• Clavada \n
+• Desviación defensa \n
+• Pieza recargada \n
+
+    </string>
+
+    <!-- CONTENIDOS DE NIVEL MEDIO -->
+    <string name="textView_contenidos_nivel_medio">
+ \n
+\t\t\t\t       7. CONTENIDOS DE NIVEL MEDIO \n \n
+
+\t\t\t\tA) Finales: \n
+1. Peones (oposición) \n
+2. Dama \n
+3. Torres \n
+4. Caballos y Alfiles \n
+5. Piezas combinadas (valor relativo) \n
+6. Tablas \n
+7. Actividad de las piezas (cuadrado, oposición) \n \n
+
+\t\t\t\tB) Medio Juego: \n
+1. Valoración de posiciones (mejora de la posición: columnas, filas y diagonales). \n
+2. Ataques directos (obstrucción, jugadas intermedias, doble amenaza, clavada, \n
+desviación de defensa, descubierta, sobrecarga, la posición de los reyes). \n
+3. Ataques indirectos (ocupación de la última línea, 7° fila). \n
+4. Táctica (combinaciones de ataque al rey, ganancia de material, ventaja
+posicional: combinaciones y sacrificio). \n
+5. Estrategia (desarrollo, actividad, casillas débiles, rey contrario, estructura
+peones, mejora de posición, iniciativa). \n
+6. Defensa. \n \n
+
+\t\t\t\tC) Aperturas: \n
+1. Control del centro: abierto, cerrado, fijo. Planes. \n
+2. Desarrollo de las piezas (tiempo). \n
+3. Iniciativa \n
+4. Celadas \n
+5. Repertorio y su creación \n
+6. Estructura de peones: aislados, atrasados, cadena. \n
+7. El enroque, mejora de piezas: debilidades, control, actividad. \n \n
+
+\t\t\t\tD) Varios \n \
+1. Historia del Ajedrez. \n
+2. Los Campeones del Mundo. \n
+3. La organización del mundo del ajedrez: olimpiadas, campeonatos, reloj. \n
+4. Torneos locales y de iniciación y promoción \n
+
+    </string>
+
+    <!-- METODOLOGIA -->
+    <string name="textView_metodologia">
+ \n
+\t\t\t\t       8. METODOLOGIA \n \n
+
+\t\t\t\t    Perseguimos fundamentalmente lograr procesos de socialización,
+comunicación, globalización, aprendizaje significativo, tratamiento de la diversidad y
+sobre todo el de fomentar el bienestar del alumno, éste último aspecto primando
+incluso por encima de los objetivos o asimilación de contenidos. Para ello se hará un
+diagnóstico de los alumnos; sus conocimientos previos, motivaciones e intereses; y a
+partir de ellos construiremos mediante técnicas expositivas, descubrimiento y
+deductivas nuevos aprendizajes, que enriquezcan los ya poseídos caso de tenerlos o
+ser nuevos para quien se acerque a nuestra disciplina por primera vez. \n\n
+
+\t\t\t\t    Asimismo, iremos viendo los progresos semanales a través de seguimiento
+periódico, observación y práctica ajedrecística. Nuestro proceso finalizará con una fase
+de evaluación (inicial, procesual y final) según la fase de la actividad, que nos permitirá
+conocer el grado de asimilación del alumno, sus fortalezas y debilidades, y nos
+indicará si nuestros objetivos se están cumpliendo, así como proporcionarnos
+información de si nuestra propuesta debe seguir estable o es susceptible de cambios
+de cualquier índole.
+
+    </string>
+
+    <!-- otras actividades -->
+    <string name="textView_otras_actividades">
+ \n
+\t\t\t\t       9. ORGANIZACiÓN DE OTRAS ACTIVIDADES: \n \n
+
+\t\t\t\t    Como finalización a las sesiones de iniciación que se extenderán durante los
+ocho meses propuestos, octubre de 2018 a mayo de 2019. De dicha manera tal como
+proponíamos en apartado anterior, se organizaría una simultánea escolar durante el
+último trimestre de desarrollo de las actividades, es decir, marzo, abril, o mayo. \n\n
+
+\t\t\t\t    También en el caso de haber disponibilidad se podrían realizar visitas a torneos que se
+disputen durante el periodo previsto para la sesiones, e incluso desplazar
+puntualmente a algún jugador destacado, que podría ser de categorías de promoción,
+
+    </string>
+
+
+</resources>

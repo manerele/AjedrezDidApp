@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ObjetivosGeneralesActivity"
+    tools:showIn="@layout/activity_objetivos_generales">
+
+
+    <!--  Con estas líneas conseguimos que el texView
+        se muestre en varias líneas y que
+        se muestre el scrollbar
+
+        android:scrollbars="vertical"
+        android:singleLine="false"
+    -->
+    <TextView
+        android:id="@+id/addressObjGen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="2dp"
+
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="2dp"
+
+        android:layout_marginStart="4dp"
+        android:gravity="left"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="@string/textView_objetivos_generales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+</android.support.constraint.ConstraintLayout>
