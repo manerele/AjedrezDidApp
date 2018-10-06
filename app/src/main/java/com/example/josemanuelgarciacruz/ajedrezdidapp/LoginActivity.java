@@ -82,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (TextUtils.isEmpty(mailString)){
-            editTextClave.setError(getString(R.string.error_campo_obligatorio));
+            editTextMail.setError(getString(R.string.error_campo_obligatorio));
             editTextMail.requestFocus();
             return;
         }
