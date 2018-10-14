@@ -92,9 +92,12 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-
-
+        /* Cambio para que vaya a DrowerActivity
         Intent intent = new Intent(contexto, IndiceActivity.class);
+        startActivity(intent);
+        */
+
+        Intent intent = new Intent(contexto, DrawerActivity.class);
         startActivity(intent);
 
         Toast.makeText(getApplicationContext(), "Se ha validado correctamente", Toast.LENGTH_SHORT).show();

@@ -122,6 +122,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:parentActivityName="com.example.josemanuelgarciacruz.ajedrezdidapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.MainActivity" />
+        </activity>
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
