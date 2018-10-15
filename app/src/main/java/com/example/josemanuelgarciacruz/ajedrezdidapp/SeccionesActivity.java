@@ -1,7 +1,9 @@
 package com.example.josemanuelgarciacruz.ajedrezdidapp;
 
+import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -59,6 +61,9 @@ public class SeccionesActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(mViewPager);
 
     }
 
@@ -140,7 +145,35 @@ public class SeccionesActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 10;
+        }
+
+        @Nullable
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position){
+                case 0:
+                    return "SECCION 1";
+                case 1:
+                    return "SECCION 2";
+                case 2:
+                    return "SECCION 3";
+                case 3:
+                    return "SECCION 4";
+                case 4:
+                    return "SECCION 5";
+                case 5:
+                    return "SECCION 6";
+                case 6:
+                    return "SECCION 7";
+                case 7:
+                    return "SECCION 8";
+                case 8:
+                    return "SECCION 9";
+                case 9:
+                    return "SECCION 10";
+            }
+            return super.getPageTitle(position);
         }
     }
 }
