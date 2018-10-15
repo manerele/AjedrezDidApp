@@ -153,25 +153,25 @@ public class SeccionesActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position){
                 case 0:
-                    return "SECCION 1";
+                    return "INICIO";
                 case 1:
-                    return "SECCION 2";
+                    return "Introduccion";
                 case 2:
-                    return "SECCION 3";
+                    return "Objetivos Generales";
                 case 3:
-                    return "SECCION 4";
+                    return "Objetivos Especificos";
                 case 4:
-                    return "SECCION 5";
+                    return "Temporalizacion";
                 case 5:
-                    return "SECCION 6";
+                    return "Actuacion";
                 case 6:
-                    return "SECCION 7";
+                    return "Contenidos";
                 case 7:
-                    return "SECCION 8";
+                    return "Contenidos Nivel Medio";
                 case 8:
-                    return "SECCION 9";
+                    return "Metodologia";
                 case 9:
-                    return "SECCION 10";
+                    return "Otras Actividades";
             }
             return super.getPageTitle(position);
         }
