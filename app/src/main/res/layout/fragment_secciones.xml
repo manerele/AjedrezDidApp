@@ -5,7 +5,18 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbars="vertical"
+    app:layout_scrollFlags="scroll"
     tools:context=".SeccionesActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:isScrollContainer="false"
+        android:id="@+id/scroll_view"
+        >
 
     <TextView
         android:id="@+id/section_label"
@@ -16,5 +27,7 @@
         app:layout_constraintTop_toTopOf="@+id/constraintLayout"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1" />
+
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
