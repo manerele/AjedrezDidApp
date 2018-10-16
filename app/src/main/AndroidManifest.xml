@@ -19,10 +19,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Lo modifico en el siguiente párrafo
+            para redireccionar el padre de esta activity
         <activity
             android:name=".IndiceActivity"
             android:label="Indice"
             android:parentActivityName=".MainActivity" />
+        -->
+        <activity
+            android:name=".IndiceActivity"
+            android:label="Indice"
+            android:parentActivityName=".DrawerActivity" />
+
         <activity
             android:name=".ContenidosActivity"
             android:label="@string/title_activity_contenidos"

@@ -28,10 +28,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--
+        Lo modifico en el siguiente párrafo
+        <activity
+            android:name=".IndiceActivity"
+            android:label="Indice"
+            android:parentActivityName=".MainActivity" />
+        -->
         <activity
             android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.IndiceActivity"
             android:label="Indice"
-            android:parentActivityName="com.example.josemanuelgarciacruz.ajedrezdidapp.MainActivity" />
+            android:parentActivityName="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity" />
         <activity
             android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.ContenidosActivity"
             android:label="@string/title_activity_contenidos"
