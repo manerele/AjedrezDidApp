@@ -383,5 +383,13 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
     <string name="mensaje_2_drawer_activity">También puedes clicar en el boton Menú</string>
     <string name="texto_boton_drawer_activity">Versión Tarea 1</string>
 
+    <!-- Primera  pestaña de SeccionesActivity -->
+    <string name="texto_primera_pestña">
+\n\n\n\n
+\t\t\t\t   Proyecto de colaboración del ayuntamiento de Las Palmas de Gran Canaria
+        con La Federacion Canaria de Ajedrez para el fomento de este deporte
+        en los escolares.
+    </string>
+
 
 </resources>

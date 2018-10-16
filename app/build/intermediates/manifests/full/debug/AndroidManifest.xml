@@ -31,6 +31,7 @@
 
         <!--
         Lo modifico en el siguiente párrafo
+            para redireccionar el padre de esta activity
         <activity
             android:name=".IndiceActivity"
             android:label="Indice"

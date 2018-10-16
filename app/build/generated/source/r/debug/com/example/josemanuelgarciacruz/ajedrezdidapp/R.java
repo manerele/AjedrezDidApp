@@ -2674,7 +2674,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -5176,20 +5176,21 @@ public final class R {
     public static final int textView_temporalizacion=0x7f0e0061;
     public static final int textView_vacio=0x7f0e0062;
     public static final int texto_boton_drawer_activity=0x7f0e0063;
-    public static final int title_activity_actuacion=0x7f0e0064;
-    public static final int title_activity_contenidos=0x7f0e0065;
-    public static final int title_activity_contenidos_medio=0x7f0e0066;
-    public static final int title_activity_drawer=0x7f0e0067;
-    public static final int title_activity_introduccion=0x7f0e0068;
-    public static final int title_activity_login=0x7f0e0069;
-    public static final int title_activity_main=0x7f0e006a;
-    public static final int title_activity_metodologia=0x7f0e006b;
-    public static final int title_activity_objetivos_especificos=0x7f0e006c;
-    public static final int title_activity_objetivos_generales=0x7f0e006d;
-    public static final int title_activity_otras_actividades=0x7f0e006e;
-    public static final int title_activity_secciones=0x7f0e006f;
-    public static final int title_activity_temporalizacion=0x7f0e0070;
-    public static final int validar=0x7f0e0071;
+    public static final int texto_primera_pestña=0x7f0e0064;
+    public static final int title_activity_actuacion=0x7f0e0065;
+    public static final int title_activity_contenidos=0x7f0e0066;
+    public static final int title_activity_contenidos_medio=0x7f0e0067;
+    public static final int title_activity_drawer=0x7f0e0068;
+    public static final int title_activity_introduccion=0x7f0e0069;
+    public static final int title_activity_login=0x7f0e006a;
+    public static final int title_activity_main=0x7f0e006b;
+    public static final int title_activity_metodologia=0x7f0e006c;
+    public static final int title_activity_objetivos_especificos=0x7f0e006d;
+    public static final int title_activity_objetivos_generales=0x7f0e006e;
+    public static final int title_activity_otras_actividades=0x7f0e006f;
+    public static final int title_activity_secciones=0x7f0e0070;
+    public static final int title_activity_temporalizacion=0x7f0e0071;
+    public static final int validar=0x7f0e0072;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -11691,7 +11692,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>

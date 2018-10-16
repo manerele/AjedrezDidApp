@@ -120,9 +120,68 @@ public class SeccionesActivity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_secciones, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+
+
+            //Modifico el código que se genera por omisión con un swhich.
+
+            //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            int numeroSeccion = getArguments().getInt(ARG_SECTION_NUMBER);
+
+            switch (numeroSeccion) {
+                case 1:{
+                    textView.setText(getString(R.string.texto_primera_pestña));
+                    return rootView;
+                }
+                case 2: {
+                    textView.setText(getString(R.string.textView_introducion_apartado));
+                    return rootView;
+                }
+                case 3: {
+                    textView.setText(getString(R.string.textView_objetivos_generales));
+                    return rootView;
+                }
+                case 4: {
+                    textView.setText(getString(R.string.textView_objetivos_especificos));
+                    return rootView;
+                }
+                case 5: {
+                    textView.setText(getString(R.string.textView_temporalizacion));
+                    return rootView;
+                }
+                case 6: {
+                    textView.setText(getString(R.string.textView_actuacion));
+                    return rootView;
+                }
+                case 7: {
+                    textView.setText(getString(R.string.textView_contenidos));
+                    return rootView;
+                }
+                case 8: {
+                    textView.setText(getString(R.string.textView_contenidos_nivel_medio));
+                    return rootView;
+                }
+                case 9: {
+                    textView.setText(getString(R.string.textView_metodologia));
+                    return rootView;
+                }
+                case 10: {
+                    textView.setText(getString(R.string.textView_otras_actividades));
+                    return rootView;
+                }
+            }
+            return rootView;
+        }
+
+        /*
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_secciones, container, false);
+            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
         }
+        */
     }
 
     /**
