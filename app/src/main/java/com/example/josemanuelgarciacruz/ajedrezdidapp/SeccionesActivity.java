@@ -122,9 +122,11 @@ public class SeccionesActivity extends AppCompatActivity {
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
 
 
-            //Modifico el código que se genera por omisión con un swhich.
+            /* Modifico el código que se genera por omisión con un swhich.
 
-            //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            */
 
             int numeroSeccion = getArguments().getInt(ARG_SECTION_NUMBER);
 
@@ -231,6 +233,7 @@ public class SeccionesActivity extends AppCompatActivity {
                     return "Metodologia";
                 case 9:
                     return "Otras Actividades";
+
             }
             return super.getPageTitle(position);
         }

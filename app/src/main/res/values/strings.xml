@@ -367,14 +367,14 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
 
     </string>
 
-    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_activity_drawer">Drawer Activity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Federacion Canaria de Ajedrez</string>
     <string name="nav_header_subtitle">Ayuntamiento de Las Palmas</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_secciones">SeccionesActivity</string>
+    <string name="title_activity_secciones">Secciones Activity</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
 
@@ -390,6 +390,16 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
         con La Federacion Canaria de Ajedrez para el fomento de este deporte
         en los escolares.
     </string>
+
+    <!-- Main menu -->
+    <string name="texto_item_1">Opcion 1</string>
+    <string name="texto_item_2">Opcion 2</string>
+    <string name="texto_item_3">Opcion 3</string>
+    <string name="texto_item_4">Opcion 4</string>
+    <string name="texto_item_5">Opcion 5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

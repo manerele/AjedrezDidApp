@@ -6,31 +6,34 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1539768185790"
+    timestamp="1539854054125"
     token="-478881309187412198"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="387" />
+        duration="273" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="2" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
         location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
         location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -48,16 +51,13 @@
         location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
         location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -65,16 +65,19 @@
 
     <build
         build-mode="FULL"
-        timestamp="1539768185790"
+        timestamp="1539854054125"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -92,16 +95,13 @@
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
