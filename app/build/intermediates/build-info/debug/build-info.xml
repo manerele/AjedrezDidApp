@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1539375321345"
+    timestamp="1539467795400"
     token="-478881309187412198"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1539375321345"
+        timestamp="1539467795400"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
