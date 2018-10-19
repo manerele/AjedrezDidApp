@@ -378,7 +378,7 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
     <string name="section_format">Hello World from section: %1$d</string>
 
     <!-- Titulos de los apartados -->
-    <string name="striing_vista_fragmentos">Vista en Fragmentos (pestañas)</string>
+    <string name="striing_vista_fragmentos">Por Fragmentos</string>
     <string name="striing_introduccion">Introducción</string>
     <string name="striing_objetivos_generales">Objetivos Generales</string>
     <string name="striing_objetivos_especificos">Objetivos Específicos</string>
@@ -404,15 +404,11 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
         en los escolares.
     </string>
 
-    <!-- Main menu -->
-    <string name="texto_item_1">Opcion 1</string>
-    <string name="texto_item_2">Opcion 2</string>
-    <string name="texto_item_3">Opcion 3</string>
-    <string name="texto_item_4">Opcion 4</string>
-    <string name="texto_item_5">Opcion 5</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
+    <string name="string_primera_pestanna">A pestaña 1</string>
 
 </resources>
