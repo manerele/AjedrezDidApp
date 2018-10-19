@@ -4,6 +4,51 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_fragmentos"
+            android:icon="@drawable/ic_vista_fragmentos"
+            android:title="@string/striing_vista_fragmentos" />
+        <item
+            android:id="@+id/nav_introduccion"
+            android:icon="@drawable/ic_uno"
+            android:title="@string/striing_introduccion" />
+        <item
+            android:id="@+id/nav_objetivos_generales"
+            android:icon="@drawable/ic_dos"
+            android:title="@string/striing_objetivos_generales" />
+        <item
+            android:id="@+id/nav_objetivos_esprvificos"
+            android:icon="@drawable/ic_tres"
+            android:title="@string/striing_objetivos_especificos" />
+        <item
+            android:id="@+id/nav_temporalizacion"
+            android:icon="@drawable/ic_cuatro"
+            android:title="@string/striing_temporalizacion" />
+        <item
+            android:id="@+id/nav_actuacion"
+            android:icon="@drawable/ic_cinco"
+            android:title="@string/striing_actuacion" />
+        <item
+            android:id="@+id/nav_contenidos_iniciacion"
+            android:icon="@drawable/ic_seis"
+            android:title="@string/striing_contenidos_iniciacion" />
+        <item
+            android:id="@+id/nav_contenidos_nivel_mediio"
+            android:icon="@drawable/ic_siete"
+            android:title="@string/striing_contenidos_medio" />
+        <item
+            android:id="@+id/nav_metodologia"
+            android:icon="@drawable/ic_ocho"
+            android:title="@string/striing_metodologia" />
+        <item
+            android:id="@+id/nav_otras_actividades"
+            android:icon="@drawable/ic_nueve"
+            android:title="@string/striing_otras_actividades" />
+
+
+        <!-- Version anterior
+
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
@@ -24,7 +69,12 @@
             android:id="@+id/nav_secciones"
             android:icon="@drawable/ic_menu_manage"
             android:title="Apartados" />
+
+            Final version anterior -->
+
     </group>
+
+
 
     <item android:title="Communicate">
         <menu>

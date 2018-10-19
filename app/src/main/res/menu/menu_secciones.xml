@@ -4,13 +4,48 @@
     tools:context="com.example.josemanuelgarciacruz.ajedrezdidapp.SeccionesActivity">
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_introduccion"
         android:orderInCategory="100"
-        android:title="@string/texto_item_1"
+        android:title="@string/striing_introduccion"
         app:showAsAction="never" />
     <item
-        android:id="@+id/action_opcion"
+        android:id="@+id/action_obj_gen"
         android:orderInCategory="200"
-        android:title="@string/texto_item_2"
+        android:title="@string/striing_objetivos_generales"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_obj_esp"
+        android:orderInCategory="200"
+        android:title="@string/striing_objetivos_especificos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_temporalizacion"
+        android:orderInCategory="200"
+        android:title="@string/striing_temporalizacion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_actuacion"
+        android:orderInCategory="200"
+        android:title="@string/striing_actuacion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cont_ini"
+        android:orderInCategory="200"
+        android:title="@string/striing_contenidos_iniciacion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cont_grad_med"
+        android:orderInCategory="200"
+        android:title="@string/striing_contenidos_medio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Metodologia"
+        android:orderInCategory="200"
+        android:title="@string/striing_metodologia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_otras_act"
+        android:orderInCategory="200"
+        android:title="@string/striing_otras_actividades"
         app:showAsAction="never" />
 </menu>

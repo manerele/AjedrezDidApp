@@ -81,8 +81,33 @@ public class DrawerActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_introduccion) {
+            Intent intent = new Intent(getApplicationContext(), IntroduccionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_obj_gen) {
+            Intent intent = new Intent(getApplicationContext(), ObjetivosGeneralesActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_obj_esp) {
+            Intent intent = new Intent(getApplicationContext(), ObjetivosEspecificosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_temporalizacion) {
+            Intent intent = new Intent(getApplicationContext(), TemporalizacionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_actuacion) {
+            Intent intent = new Intent(getApplicationContext(), ActuacionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_cont_ini) {
+            Intent intent = new Intent(getApplicationContext(), ContenidosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_cont_grad_med) {
+            Intent intent = new Intent(getApplicationContext(), ContenidosMedioActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_Metodologia) {
+            Intent intent = new Intent(getApplicationContext(), MetodologiaActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_otras_act) {
+            Intent intent = new Intent(getApplicationContext(), OtrasActividadesActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -108,20 +133,35 @@ public class DrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
         Fin version anterior */
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        } else if (id == R.id.nav_secciones) {
+        if (id == R.id.nav_fragmentos) {
             Intent intent = new Intent(getApplicationContext(), SeccionesActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_introduccion) {
+            Intent intent = new Intent(getApplicationContext(), IntroduccionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_objetivos_generales) {
+            Intent intent = new Intent(getApplicationContext(), ObjetivosGeneralesActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_objetivos_esprvificos) {
+            Intent intent = new Intent(getApplicationContext(), ObjetivosEspecificosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_temporalizacion) {
+            Intent intent = new Intent(getApplicationContext(), TemporalizacionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_actuacion) {
+            Intent intent = new Intent(getApplicationContext(), ActuacionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_contenidos_iniciacion) {
+            Intent intent = new Intent(getApplicationContext(), ContenidosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_contenidos_nivel_mediio) {
+            Intent intent = new Intent(getApplicationContext(), ContenidosMedioActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_metodologia) {
+            Intent intent = new Intent(getApplicationContext(), MetodologiaActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_otras_actividades) {
+            Intent intent = new Intent(getApplicationContext(), OtrasActividadesActivity.class);
             startActivity(intent);
         }
 

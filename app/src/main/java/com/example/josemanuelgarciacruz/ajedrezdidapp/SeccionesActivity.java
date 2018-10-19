@@ -1,5 +1,6 @@
 package com.example.josemanuelgarciacruz.ajedrezdidapp;
 
+import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -83,8 +84,33 @@ public class SeccionesActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_introduccion) {
+            Intent intent = new Intent(getApplicationContext(), IntroduccionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_obj_gen) {
+            Intent intent = new Intent(getApplicationContext(), ObjetivosGeneralesActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_obj_esp) {
+            Intent intent = new Intent(getApplicationContext(), ObjetivosEspecificosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_temporalizacion) {
+            Intent intent = new Intent(getApplicationContext(), TemporalizacionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_actuacion) {
+            Intent intent = new Intent(getApplicationContext(), ActuacionActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_cont_ini) {
+            Intent intent = new Intent(getApplicationContext(), ContenidosActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_cont_grad_med) {
+            Intent intent = new Intent(getApplicationContext(), ContenidosMedioActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_Metodologia) {
+            Intent intent = new Intent(getApplicationContext(), MetodologiaActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_otras_act) {
+            Intent intent = new Intent(getApplicationContext(), OtrasActividadesActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

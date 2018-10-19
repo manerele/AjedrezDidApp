@@ -1,4 +1,4 @@
-#Thu Oct 18 10:14:16 WEST 2018
+#Fri Oct 19 12:39:08 WEST 2018
 base.0=/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex
