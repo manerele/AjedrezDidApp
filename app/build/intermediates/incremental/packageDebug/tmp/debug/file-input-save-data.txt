@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Sep 28 13:51:43 WEST 2018
+#Wed Oct 24 22:13:48 WEST 2018
 2.base=/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/transforms/dexMerger/debug/12
 5.set=DEX
 0.path=classes.dex
