@@ -72,6 +72,10 @@
         "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d459a9ccb1b27745d458a3683dad1f93/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/layout_fragment_player_list.xml.flat",
+        "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/res/layout/fragment_player_list.xml"
+    },
+    {
         "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat",
         "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d459a9ccb1b27745d458a3683dad1f93/res/drawable/abc_ratingbar_small_material.xml"
     },
@@ -336,6 +340,10 @@
         "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/res/layout/design_text_input_password_icon.xml"
     },
     {
+        "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/layout_player_list_item.xml.flat",
+        "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/res/layout/player_list_item.xml"
+    },
+    {
         "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_nueve.png.flat",
         "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nueve.png"
     },
@@ -482,6 +490,10 @@
     {
         "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_cuatro.png.flat",
         "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_cuatro.png"
+    },
+    {
+        "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/layout_activity_player.xml.flat",
+        "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/res/layout/activity_player.xml"
     },
     {
         "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1312,12 +1324,12 @@
         "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/res/drawable-v21/design_password_eye.xml"
     },
     {
-        "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/menu_activity_drawer.xml.flat",
-        "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/res/menu/activity_drawer.xml"
-    },
-    {
         "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vista_fragmentos.png.flat",
         "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_vista_fragmentos.png"
+    },
+    {
+        "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/menu_activity_drawer.xml.flat",
+        "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/res/menu/activity_drawer.xml"
     },
     {
         "merged": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_cinco.png.flat",

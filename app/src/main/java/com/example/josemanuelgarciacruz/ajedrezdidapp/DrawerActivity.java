@@ -16,6 +16,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity;
+
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -50,6 +52,17 @@ public class DrawerActivity extends AppCompatActivity
             public void onClick(View v) {
 
                 Intent intent = new Intent(getApplicationContext(), IndiceActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        Button buttonJugadores = (Button) findViewById(R.id.buttonJugadores);
+        buttonJugadores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), PlayerActivity.class);
                 startActivity(intent);
 
             }

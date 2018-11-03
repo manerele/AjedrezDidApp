@@ -149,7 +149,23 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity" />
         </activity>
+        <activity
+            android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity"
+            android:label="Player Activity"
+            android:parentActivityName="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
 
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity" />
+        </activity>
+
+        <provider
+            android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.ProveedorDeContenido"
+            android:authorities="com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.ProveedorDeContenido"
+            android:enabled="true"
+            android:exported="true" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.example.josemanuelgarciacruz.ajedrezdidapp.com.android.tools.ir.server.InstantRunContentProvider"

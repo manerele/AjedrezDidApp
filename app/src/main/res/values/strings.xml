@@ -411,4 +411,9 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
 
     <string name="string_primera_pestanna">A pestaña 1</string>
 
+    <!-- Importados -->
+    <string name="sin_datos">Sin datos.</string>
+
+    <string name="progress_cargando_datos">Cargando datos&#8230;</string>
+
 </resources>

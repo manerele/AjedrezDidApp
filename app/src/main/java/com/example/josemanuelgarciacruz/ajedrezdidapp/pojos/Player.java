@@ -1,0 +1,62 @@
+package com.example.josemanuelgarciacruz.ajedrezdidapp.pojos;
+
+import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
+
+/**
+ * Created by Tiburcio on 31/07/2016.
+ */
+public class Player {
+    private int ID;
+    private String nombre;
+    private String Nacionalidad;
+    private int yearNacimiento;
+    private int yearDefuncion;
+    private int elo;
+
+    public Player(){
+        this.ID = G.SIN_VALOR_INT;
+        this.nombre = G.SIN_VALOR_STRING;
+        this.setNacionalidad(G.SIN_VALOR_STRING);
+    };
+
+    public Player(int ID, String nombre, String Nacionalidad, int yearNacimiento, int yearDefuncion, int elo) {
+        this.ID = ID;
+        this.nombre = nombre;
+        this.setNacionalidad(Nacionalidad);
+        this.yearNacimiento = yearNacimiento;
+        this.yearDefuncion = yearDefuncion;
+        this.elo = elo;
+    }
+
+    public int getID() {
+        return ID;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public String getNacionalidad() { return Nacionalidad; }
+    public int getYearNacimiento() {
+        return yearNacimiento;
+    }
+    public int getYearDefuncion() { return yearDefuncion; }
+    public int getElo() {
+        return elo;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setNacionalidad(String nacionalidad) {
+        this.Nacionalidad = nacionalidad;
+    }
+    public void setYearNacimiento(int yearNacimiento) {
+        this.yearNacimiento = yearNacimiento;
+    }
+    public void setYearDefuncion(int yearDefuncion) {
+        this.yearDefuncion = yearDefuncion;
+    }
+    public void setElo(int elo) {this.elo = elo; }
+}
