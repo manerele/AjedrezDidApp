@@ -2674,7 +2674,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -4699,8 +4699,8 @@ public final class R {
     public static final int CTRL=0x7f080001;
     public static final int FUNCTION=0x7f080002;
     public static final int Fragment_Pager_List_FrameLayout=0x7f080003;
-    public static final int LLCiclo=0x7f080004;
-    public static final int META=0x7f080005;
+    public static final int META=0x7f080004;
+    public static final int PlayerCursorAdapter=0x7f080005;
     public static final int SHIFT=0x7f080006;
     public static final int SYM=0x7f080007;
     public static final int action0=0x7f080008;
@@ -4806,7 +4806,7 @@ public final class R {
     public static final int filled=0x7f08006c;
     public static final int fixed=0x7f08006d;
     public static final int forever=0x7f08006e;
-    public static final int fragment_ciclo=0x7f08006f;
+    public static final int fragment_player=0x7f08006f;
     public static final int fragment_status=0x7f080070;
     public static final int ghost_view=0x7f080071;
     public static final int gone=0x7f080072;
@@ -4955,11 +4955,11 @@ public final class R {
     public static final int textinput_counter=0x7f080101;
     public static final int textinput_error=0x7f080102;
     public static final int textinput_helper_text=0x7f080103;
-    public static final int textview_ciclo_list_item_elo=0x7f080104;
-    public static final int textview_ciclo_list_item_nacionalidad=0x7f080105;
-    public static final int textview_ciclo_list_item_nombre=0x7f080106;
-    public static final int textview_ciclo_list_item_y_def=0x7f080107;
-    public static final int textview_ciclo_list_item_y_nac=0x7f080108;
+    public static final int textview_player_list_item_elo=0x7f080104;
+    public static final int textview_player_list_item_nacionalidad=0x7f080105;
+    public static final int textview_player_list_item_nombre=0x7f080106;
+    public static final int textview_player_list_item_y_def=0x7f080107;
+    public static final int textview_player_list_item_y_nac=0x7f080108;
     public static final int time=0x7f080109;
     public static final int title=0x7f08010a;
     public static final int titleDividerNoCustom=0x7f08010b;
@@ -5161,91 +5161,92 @@ public final class R {
     public static final int app_name=0x7f0e0029;
     public static final int appbar_scrolling_view_behavior=0x7f0e002a;
     public static final int bottom_sheet_behavior=0x7f0e002b;
-    public static final int button_siguiente=0x7f0e002c;
-    public static final int button_validar=0x7f0e002d;
-    public static final int character_counter_content_description=0x7f0e002e;
-    public static final int character_counter_pattern=0x7f0e002f;
-    public static final int checkBox_Crear=0x7f0e0030;
-    public static final int clave=0x7f0e0031;
-    public static final int datos_usuario=0x7f0e0032;
-    public static final int error_campo_numerico=0x7f0e0033;
-    public static final int error_campo_obligatorio=0x7f0e0034;
-    public static final int error_datos_erroneos=0x7f0e0035;
-    public static final int etiqueta_clave_usuario=0x7f0e0036;
-    public static final int etiqueta_mail=0x7f0e0037;
-    public static final int etiqueta_usuario=0x7f0e0038;
-    public static final int fab_transformation_scrim_behavior=0x7f0e0039;
-    public static final int fab_transformation_sheet_behavior=0x7f0e003a;
-    public static final int hello_blank_fragment=0x7f0e003b;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e003c;
-    public static final int indice_name=0x7f0e003d;
-    public static final int mensaje_2_drawer_activity=0x7f0e003e;
-    public static final int mensaje_drawer_activity=0x7f0e003f;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0e0040;
-    public static final int nav_header_desc=0x7f0e0041;
-    public static final int nav_header_subtitle=0x7f0e0042;
-    public static final int nav_header_title=0x7f0e0043;
-    public static final int navigation_drawer_close=0x7f0e0044;
-    public static final int navigation_drawer_open=0x7f0e0045;
-    public static final int nombre=0x7f0e0046;
-    public static final int password_toggle_content_description=0x7f0e0047;
-    public static final int path_password_eye=0x7f0e0048;
-    public static final int path_password_eye_mask_strike_through=0x7f0e0049;
-    public static final int path_password_eye_mask_visible=0x7f0e004a;
-    public static final int path_password_strike_through=0x7f0e004b;
-    public static final int progress_cargando_datos=0x7f0e004c;
-    public static final int radioButton_1=0x7f0e004d;
-    public static final int radioButton_2=0x7f0e004e;
-    public static final int radioButton_3=0x7f0e004f;
-    public static final int radioButton_4=0x7f0e0050;
-    public static final int radioButton_5=0x7f0e0051;
-    public static final int radioButton_6=0x7f0e0052;
-    public static final int radioButton_7=0x7f0e0053;
-    public static final int radioButton_8=0x7f0e0054;
-    public static final int radioButton_9=0x7f0e0055;
-    public static final int search_menu_title=0x7f0e0056;
-    public static final int section_format=0x7f0e0057;
-    public static final int siguiente=0x7f0e0058;
-    public static final int sin_datos=0x7f0e0059;
-    public static final int status_bar_notification_info_overflow=0x7f0e005a;
-    public static final int striing_actuacion=0x7f0e005b;
-    public static final int striing_contenidos_iniciacion=0x7f0e005c;
-    public static final int striing_contenidos_medio=0x7f0e005d;
-    public static final int striing_introduccion=0x7f0e005e;
-    public static final int striing_metodologia=0x7f0e005f;
-    public static final int striing_objetivos_especificos=0x7f0e0060;
-    public static final int striing_objetivos_generales=0x7f0e0061;
-    public static final int striing_otras_actividades=0x7f0e0062;
-    public static final int striing_temporalizacion=0x7f0e0063;
-    public static final int striing_vista_fragmentos=0x7f0e0064;
-    public static final int string_primera_pestanna=0x7f0e0065;
-    public static final int textView_actuacion=0x7f0e0066;
-    public static final int textView_contenidos=0x7f0e0067;
-    public static final int textView_contenidos_nivel_medio=0x7f0e0068;
-    public static final int textView_instruccion=0x7f0e0069;
-    public static final int textView_introducion_apartado=0x7f0e006a;
-    public static final int textView_metodologia=0x7f0e006b;
-    public static final int textView_objetivos_especificos=0x7f0e006c;
-    public static final int textView_objetivos_generales=0x7f0e006d;
-    public static final int textView_otras_actividades=0x7f0e006e;
-    public static final int textView_temporalizacion=0x7f0e006f;
-    public static final int textView_vacio=0x7f0e0070;
-    public static final int texto_boton_drawer_activity=0x7f0e0071;
-    public static final int texto_primera_pestña=0x7f0e0072;
-    public static final int title_activity_actuacion=0x7f0e0073;
-    public static final int title_activity_contenidos=0x7f0e0074;
-    public static final int title_activity_contenidos_medio=0x7f0e0075;
-    public static final int title_activity_drawer=0x7f0e0076;
-    public static final int title_activity_introduccion=0x7f0e0077;
-    public static final int title_activity_login=0x7f0e0078;
-    public static final int title_activity_main=0x7f0e0079;
-    public static final int title_activity_metodologia=0x7f0e007a;
-    public static final int title_activity_objetivos_especificos=0x7f0e007b;
-    public static final int title_activity_objetivos_generales=0x7f0e007c;
-    public static final int title_activity_otras_actividades=0x7f0e007d;
-    public static final int title_activity_secciones=0x7f0e007e;
-    public static final int title_activity_temporalizacion=0x7f0e007f;
-    public static final int validar=0x7f0e0080;
+    public static final int buttonJugadores=0x7f0e002c;
+    public static final int button_siguiente=0x7f0e002d;
+    public static final int button_validar=0x7f0e002e;
+    public static final int character_counter_content_description=0x7f0e002f;
+    public static final int character_counter_pattern=0x7f0e0030;
+    public static final int checkBox_Crear=0x7f0e0031;
+    public static final int clave=0x7f0e0032;
+    public static final int datos_usuario=0x7f0e0033;
+    public static final int error_campo_numerico=0x7f0e0034;
+    public static final int error_campo_obligatorio=0x7f0e0035;
+    public static final int error_datos_erroneos=0x7f0e0036;
+    public static final int etiqueta_clave_usuario=0x7f0e0037;
+    public static final int etiqueta_mail=0x7f0e0038;
+    public static final int etiqueta_usuario=0x7f0e0039;
+    public static final int fab_transformation_scrim_behavior=0x7f0e003a;
+    public static final int fab_transformation_sheet_behavior=0x7f0e003b;
+    public static final int hello_blank_fragment=0x7f0e003c;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e003d;
+    public static final int indice_name=0x7f0e003e;
+    public static final int mensaje_2_drawer_activity=0x7f0e003f;
+    public static final int mensaje_drawer_activity=0x7f0e0040;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0e0041;
+    public static final int nav_header_desc=0x7f0e0042;
+    public static final int nav_header_subtitle=0x7f0e0043;
+    public static final int nav_header_title=0x7f0e0044;
+    public static final int navigation_drawer_close=0x7f0e0045;
+    public static final int navigation_drawer_open=0x7f0e0046;
+    public static final int nombre=0x7f0e0047;
+    public static final int password_toggle_content_description=0x7f0e0048;
+    public static final int path_password_eye=0x7f0e0049;
+    public static final int path_password_eye_mask_strike_through=0x7f0e004a;
+    public static final int path_password_eye_mask_visible=0x7f0e004b;
+    public static final int path_password_strike_through=0x7f0e004c;
+    public static final int progress_cargando_datos=0x7f0e004d;
+    public static final int radioButton_1=0x7f0e004e;
+    public static final int radioButton_2=0x7f0e004f;
+    public static final int radioButton_3=0x7f0e0050;
+    public static final int radioButton_4=0x7f0e0051;
+    public static final int radioButton_5=0x7f0e0052;
+    public static final int radioButton_6=0x7f0e0053;
+    public static final int radioButton_7=0x7f0e0054;
+    public static final int radioButton_8=0x7f0e0055;
+    public static final int radioButton_9=0x7f0e0056;
+    public static final int search_menu_title=0x7f0e0057;
+    public static final int section_format=0x7f0e0058;
+    public static final int siguiente=0x7f0e0059;
+    public static final int sin_datos=0x7f0e005a;
+    public static final int status_bar_notification_info_overflow=0x7f0e005b;
+    public static final int striing_actuacion=0x7f0e005c;
+    public static final int striing_contenidos_iniciacion=0x7f0e005d;
+    public static final int striing_contenidos_medio=0x7f0e005e;
+    public static final int striing_introduccion=0x7f0e005f;
+    public static final int striing_metodologia=0x7f0e0060;
+    public static final int striing_objetivos_especificos=0x7f0e0061;
+    public static final int striing_objetivos_generales=0x7f0e0062;
+    public static final int striing_otras_actividades=0x7f0e0063;
+    public static final int striing_temporalizacion=0x7f0e0064;
+    public static final int striing_vista_fragmentos=0x7f0e0065;
+    public static final int string_primera_pestanna=0x7f0e0066;
+    public static final int textView_actuacion=0x7f0e0067;
+    public static final int textView_contenidos=0x7f0e0068;
+    public static final int textView_contenidos_nivel_medio=0x7f0e0069;
+    public static final int textView_instruccion=0x7f0e006a;
+    public static final int textView_introducion_apartado=0x7f0e006b;
+    public static final int textView_metodologia=0x7f0e006c;
+    public static final int textView_objetivos_especificos=0x7f0e006d;
+    public static final int textView_objetivos_generales=0x7f0e006e;
+    public static final int textView_otras_actividades=0x7f0e006f;
+    public static final int textView_temporalizacion=0x7f0e0070;
+    public static final int textView_vacio=0x7f0e0071;
+    public static final int texto_boton_drawer_activity=0x7f0e0072;
+    public static final int texto_primera_pestña=0x7f0e0073;
+    public static final int title_activity_actuacion=0x7f0e0074;
+    public static final int title_activity_contenidos=0x7f0e0075;
+    public static final int title_activity_contenidos_medio=0x7f0e0076;
+    public static final int title_activity_drawer=0x7f0e0077;
+    public static final int title_activity_introduccion=0x7f0e0078;
+    public static final int title_activity_login=0x7f0e0079;
+    public static final int title_activity_main=0x7f0e007a;
+    public static final int title_activity_metodologia=0x7f0e007b;
+    public static final int title_activity_objetivos_especificos=0x7f0e007c;
+    public static final int title_activity_objetivos_generales=0x7f0e007d;
+    public static final int title_activity_otras_actividades=0x7f0e007e;
+    public static final int title_activity_secciones=0x7f0e007f;
+    public static final int title_activity_temporalizacion=0x7f0e0080;
+    public static final int validar=0x7f0e0081;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -11747,7 +11748,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>

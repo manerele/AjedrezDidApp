@@ -25,7 +25,7 @@ public class PlayerListFragment extends ListFragment
 		implements LoaderManager.LoaderCallbacks<Cursor> {
 
 
-	CicloCursorAdapter mAdapter;
+	PlayerCursorAdapter mAdapter;
 	LoaderManager.LoaderCallbacks<Cursor> mCallbacks;
 
 	public static PlayerListFragment newInstance() {
@@ -55,7 +55,7 @@ public class PlayerListFragment extends ListFragment
 		//Log.i(LOGTAG, "onCreateView");
 		View v = inflater.inflate(R.layout.fragment_player_list, container, false);
 
-		mAdapter = new CicloCursorAdapter(getActivity());
+		mAdapter = new PlayerCursorAdapter(getActivity());
 		setListAdapter(mAdapter);
 
 		return v;
@@ -78,7 +78,10 @@ public class PlayerListFragment extends ListFragment
 		// currently filtering.
 		String columns[] = new String[] { Contrato.Player._ID,
 										  Contrato.Player.NOMBRE,
-				                          Contrato.Player.NACIONALIDAD
+				                          Contrato.Player.NACIONALIDAD,
+										  Contrato.Player.YEAR_NAC,
+										  Contrato.Player.YEAR_DEF,
+										  Contrato.Player.ELO
 										};
 
 		Uri baseUri = Contrato.Player.CONTENT_URI;
@@ -109,8 +112,8 @@ public class PlayerListFragment extends ListFragment
 		mAdapter.swapCursor(null);
 	}
 
-	public class CicloCursorAdapter extends CursorAdapter {
-		public CicloCursorAdapter(Context context) {
+	public class PlayerCursorAdapter extends CursorAdapter {
+		public PlayerCursorAdapter(Context context) {
 			super(context, null, false);
 		}
 
@@ -118,18 +121,30 @@ public class PlayerListFragment extends ListFragment
 		public void bindView(View view, Context context, Cursor cursor) {
 			int ID = cursor.getInt(cursor.getColumnIndex(Contrato.Player._ID));
 			String nombre = cursor.getString(cursor.getColumnIndex(Contrato.Player.NOMBRE));
-			String abreviatura = cursor.getString(cursor.getColumnIndex(Contrato.Player.NACIONALIDAD));
+			String nacionalidad = cursor.getString(cursor.getColumnIndex(Contrato.Player.NACIONALIDAD));
+			int yearNacimiento = cursor.getInt(cursor.getColumnIndex(Contrato.Player.YEAR_NAC));
+			int yearDefucion = cursor.getInt(cursor.getColumnIndex(Contrato.Player.YEAR_DEF));
+			int yearElo = cursor.getInt(cursor.getColumnIndex(Contrato.Player.ELO));
 	
-			TextView textviewNombre = (TextView) view.findViewById(R.id.textview_ciclo_list_item_nombre);
+			TextView textviewNombre = (TextView) view.findViewById(R.id.textview_player_list_item_nombre);
 			textviewNombre.setText(nombre);
 
-			TextView textviewNacionalidad = (TextView) view.findViewById(R.id.textview_ciclo_list_item_nacionalidad);
-			textviewNacionalidad.setText(abreviatura);
+			TextView textviewNacionalidad = (TextView) view.findViewById(R.id.textview_player_list_item_nacionalidad);
+			textviewNacionalidad.setText(nacionalidad);
+
+			TextView textViewYearNac = (TextView) view.findViewById(R.id.textview_player_list_item_y_nac);
+			textViewYearNac.setText(String.valueOf(yearNacimiento));
+
+			TextView textViewYearDef = (TextView) view.findViewById(R.id.textview_player_list_item_y_def);
+			textViewYearDef.setText(String.valueOf(yearNacimiento));
+
+			TextView textViewYearElo = (TextView) view.findViewById(R.id.textview_player_list_item_elo);
+			textViewYearElo.setText(String.valueOf(yearDefucion));
 
 			ColorGenerator generator = ColorGenerator.MATERIAL; // or use DEFAULT
-			int color = generator.getColor(abreviatura); //Genera un color según el nombre
+			int color = generator.getColor(nacionalidad); //Genera un color según el nombre
 			TextDrawable drawable = TextDrawable.builder()
-					.buildRound(abreviatura.substring(0,1), color);
+					.buildRound(nacionalidad.substring(0,1), color);
 
 			ImageView image = (ImageView) view.findViewById(R.id.image_view);
 			image.setImageDrawable(drawable);

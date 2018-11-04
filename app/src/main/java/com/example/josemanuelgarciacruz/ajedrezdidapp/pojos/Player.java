@@ -8,7 +8,7 @@ import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
 public class Player {
     private int ID;
     private String nombre;
-    private String Nacionalidad;
+    private String nacionalidad;
     private int yearNacimiento;
     private int yearDefuncion;
     private int elo;
@@ -19,10 +19,10 @@ public class Player {
         this.setNacionalidad(G.SIN_VALOR_STRING);
     };
 
-    public Player(int ID, String nombre, String Nacionalidad, int yearNacimiento, int yearDefuncion, int elo) {
+    public Player(int ID, String nombre, String nacionalidad, int yearNacimiento, int yearDefuncion, int elo) {
         this.ID = ID;
         this.nombre = nombre;
-        this.setNacionalidad(Nacionalidad);
+        this.setNacionalidad(nacionalidad);
         this.yearNacimiento = yearNacimiento;
         this.yearDefuncion = yearDefuncion;
         this.elo = elo;
@@ -34,7 +34,7 @@ public class Player {
     public String getNombre() {
         return nombre;
     }
-    public String getNacionalidad() { return Nacionalidad; }
+    public String getNacionalidad() { return nacionalidad; }
     public int getYearNacimiento() {
         return yearNacimiento;
     }
@@ -50,7 +50,7 @@ public class Player {
         this.nombre = nombre;
     }
     public void setNacionalidad(String nacionalidad) {
-        this.Nacionalidad = nacionalidad;
+        this.nacionalidad = nacionalidad;
     }
     public void setYearNacimiento(int yearNacimiento) {
         this.yearNacimiento = yearNacimiento;

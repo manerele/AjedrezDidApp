@@ -22,8 +22,8 @@ public class ProveedorDeContenido extends ContentProvider {
 
     private SQLiteDatabase sqlDB;
     public DatabaseHelper dbHelper;
-    private static final String DATABASE_NAME = "Convalidaciones.db";
-    private static final int DATABASE_VERSION = 30;
+    private static final String DATABASE_NAME = "Players.db";
+    private static final int DATABASE_VERSION = 1;
 
     private static final String PLAYER_TABLE_NAME = "Player";
 
@@ -112,8 +112,8 @@ public class ProveedorDeContenido extends ContentProvider {
 
         void inicializarDatos(SQLiteDatabase db){
 
-            db.execSQL("INSERT INTO " + PLAYER_TABLE_NAME
-                    + " (" +  Contrato.Player._ID + "," + Contrato.Player.NOMBRE + ","
+            db.execSQL("INSERT INTO " + PLAYER_TABLE_NAME + " ("
+                    + Contrato.Player._ID + "," + Contrato.Player.NOMBRE + ","
                     + Contrato.Player.NACIONALIDAD + "," + Contrato.Player.YEAR_NAC + ","
                     + Contrato.Player.YEAR_DEF  + "," + Contrato.Player.ELO + ") "
                     + "VALUES (1, 'Bobby Fisher', 'EEUU', 1943, 2008, 2785)");

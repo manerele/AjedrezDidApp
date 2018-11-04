@@ -23,7 +23,7 @@ public class PlayerActivity extends AppCompatActivity {
         PlayerListFragment PlayerListFragment = new PlayerListFragment();
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.fragment_ciclo, PlayerListFragment);
+        transaction.add(R.id.fragment_player, PlayerListFragment);
         transaction.commit();
     }
 

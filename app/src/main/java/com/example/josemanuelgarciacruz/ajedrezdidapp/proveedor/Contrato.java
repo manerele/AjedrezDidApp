@@ -14,7 +14,7 @@ public class Contrato {
 
         // Table column
         public static final String NOMBRE = "Nombre";
-        public static final String NACIONALIDAD = "Abreviatura";
+        public static final String NACIONALIDAD = "Nationality";
         public static final String YEAR_NAC = "YearNacimiento";
         public static final String YEAR_DEF = "YearDefuncion";
         public static final String ELO = "Elo";
