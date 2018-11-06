@@ -20,4 +20,9 @@ public class PlayerProveedor {
 
         resolver.insert(uri, values);
     }
+
+    static public void delete(ContentResolver resolver, int playerId){
+        Uri uri = Uri.parse(Contrato.Player.CONTENT_URI + "/" + playerId);
+        resolver.delete(uri, null, null);
+    }
 }

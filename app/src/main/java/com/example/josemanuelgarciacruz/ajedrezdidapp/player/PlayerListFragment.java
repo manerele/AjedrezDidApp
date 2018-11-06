@@ -29,6 +29,7 @@ import com.example.josemanuelgarciacruz.ajedrezdidapp.R;
 
 import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.Contrato;
+import com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.PlayerProveedor;
 
 public class PlayerListFragment extends ListFragment
 		implements LoaderManager.LoaderCallbacks<Cursor> {
@@ -43,6 +44,7 @@ public class PlayerListFragment extends ListFragment
 	LoaderManager.LoaderCallbacks<Cursor> mCallbacks;
 
 	ActionMode mActionMode;
+	View viewSeleccionado;
 
 	public static PlayerListFragment newInstance() {
 		PlayerListFragment f = new PlayerListFragment();
@@ -116,6 +118,9 @@ public class PlayerListFragment extends ListFragment
 				}
 				mActionMode = getActivity().startActionMode(mActionModeCalback);
 				view.setSelected(true);
+
+				viewSeleccionado = view;
+
 				return true;
 			}
 		});
@@ -138,13 +143,11 @@ public class PlayerListFragment extends ListFragment
 		@Override
 		public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
 			switch (item.getItemId()){
-				case R.id.menu_editar:
-					Intent intent = new Intent(getActivity(), DrawerActivity.class);
-					startActivity(intent);
-					break;
 				case R.id.menu_borrar:
-					Intent intent2 = new Intent(getActivity(), MainActivity.class);
-					startActivity(intent2);
+					int playerId = (Integer)viewSeleccionado.getTag();
+					PlayerProveedor.delete(getActivity().getContentResolver(), playerId);
+					break;
+				case R.id.menu_editar:
 					break;
 			}
 
