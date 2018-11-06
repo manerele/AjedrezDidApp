@@ -19,8 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Lo modifico en el siguiente párrafo
+        <!--
+        Lo modifico en el siguiente párrafo
             para redireccionar el padre de esta activity
         <activity
             android:name=".IndiceActivity"
@@ -31,7 +31,6 @@
             android:name=".IndiceActivity"
             android:label="Indice"
             android:parentActivityName=".DrawerActivity" />
-
         <activity
             android:name=".ContenidosActivity"
             android:label="@string/title_activity_contenidos"
@@ -141,14 +140,15 @@
                 android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity" />
         </activity>
         <activity
-            android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity"
-            android:parentActivityName="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity"
+            android:name=".player.PlayerActivity"
             android:label="Player Activity"
+            android:parentActivityName=".DrawerActivity"
             android:theme="@style/AppTheme.NoActionBar">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity"/>
+                android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity" />
         </activity>
 
         <provider
@@ -156,6 +156,16 @@
             android:authorities="com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.ProveedorDeContenido"
             android:enabled="true"
             android:exported="true" />
+
+        <activity android:name=".player.PlayerDetalleActivity"
+            android:label="@string/title_player_detalle_activity"
+            android:parentActivityName=".player.PlayerActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity" />
+
+        </activity>
     </application>
 
 </manifest>

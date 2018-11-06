@@ -12,6 +12,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.SparseArray;
 
 public class ProveedorDeContenido extends ContentProvider {
@@ -188,6 +189,7 @@ public class ProveedorDeContenido extends ContentProvider {
     @Override
     public Uri insert(Uri uri, ContentValues values) {
         sqlDB = dbHelper.getWritableDatabase();
+
 
         String table = "";
         switch (sUriMatcher.match(uri)) {

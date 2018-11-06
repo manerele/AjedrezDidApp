@@ -390,7 +390,6 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
     <string name="striing_otras_actividades">Otras Actividades</string>
 
 
-
     <!-- Para el Contentt Drawer -->
     <string name="mensaje_drawer_activity">Desliza de izquiera a derecha y pulsa en Secciones</string>
     <string name="mensaje_2_drawer_activity">También puedes clicar en el boton Menú</string>
@@ -413,8 +412,17 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
 
     <!-- Importados -->
     <string name="sin_datos">Sin datos.</string>
-
+    <string name="campo_requerido">Campo requerido</string>
     <string name="progress_cargando_datos">Cargando datos&#8230;</string>
+
+    <string name="player_nombre">Nombre</string>
+    <string name="player_nacionalidad">Nacionalida</string>
+    <string name="player_year_nac">Año Nacimiento</string>
+    <string name="player_year_def">Año Defucion</string>
+    <string name="player_elo">Elo</string>
+
     <string name="buttonJugadores">Tarea 3 Jugadores</string>
+
+    <string name="title_player_detalle_activity">Detalle Activity</string>
 
 </resources>

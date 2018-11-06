@@ -28,7 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <!--
         Lo modifico en el siguiente párrafo
             para redireccionar el padre de esta activity
@@ -166,6 +165,16 @@
             android:authorities="com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.ProveedorDeContenido"
             android:enabled="true"
             android:exported="true" />
+
+        <activity
+            android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerDetalleActivity"
+            android:label="@string/title_player_detalle_activity"
+            android:parentActivityName="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity" />
+        </activity>
+
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.example.josemanuelgarciacruz.ajedrezdidapp.com.android.tools.ir.server.InstantRunContentProvider"
