@@ -167,7 +167,7 @@
             android:exported="true" />
 
         <activity
-            android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerDetalleActivity"
+            android:name="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerInsercionActivity"
             android:label="@string/title_player_detalle_activity"
             android:parentActivityName="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity" >
             <meta-data

@@ -157,7 +157,7 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".player.PlayerDetalleActivity"
+        <activity android:name=".player.PlayerInsercionActivity"
             android:label="@string/title_player_detalle_activity"
             android:parentActivityName=".player.PlayerActivity">
 

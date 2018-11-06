@@ -77,7 +77,7 @@ public class PlayerListFragment extends ListFragment
 
 		switch (item.getItemId()){
 			case G.INSERTAR:
-				Intent intent = new Intent(getActivity(), PlayerDetalleActivity.class);
+				Intent intent = new Intent(getActivity(), PlayerInsercionActivity.class);
 				startActivity(intent);
 				break;
 		}
