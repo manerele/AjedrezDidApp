@@ -157,7 +157,17 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".player.PlayerInsercionActivity"
+        <activity android:name=".player.PlayerInsertarActivity"
+            android:label="@string/title_player_detalle_activity"
+            android:parentActivityName=".player.PlayerActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity" />
+
+        </activity>
+
+        <activity android:name=".player.PlayerModificarActivity"
             android:label="@string/title_player_detalle_activity"
             android:parentActivityName=".player.PlayerActivity">
 

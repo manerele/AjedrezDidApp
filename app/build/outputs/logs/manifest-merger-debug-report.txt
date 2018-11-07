@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d459a9ccb1b27745d458a3683dad1f93/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b702b92e290184af3ed572f043f28b4a/AndroidManifest.xml:2:1-11:12
@@ -38,25 +38,25 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/josemanuelgarciacru
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/10284b6799af1a674ae48a2bb6cb6d6d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b5ab9dac76ec181c934f304de62eab48/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ba8201d3e240a48413e92889ba60e38b/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
 	package
 		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:3:5-61
 		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
 		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-171:12
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:1-181:12
 		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:6:5-169:19
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:6:5-179:19
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b702b92e290184af3ed572f043f28b4a/AndroidManifest.xml:9:5-20
@@ -251,14 +251,22 @@ ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/s
 		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:158:13-36
 	android:name
 		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:155:13-59
-activity#com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerInsercionActivity
+activity#com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerInsertarActivity
 ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:160:9-168:20
 	android:parentActivityName
 		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:162:13-64
 	android:label
 		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:161:13-66
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:160:19-65
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:160:19-64
+activity#com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerModificarActivity
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:170:9-178:20
+	android:parentActivityName
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:172:13-64
+	android:label
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:171:13-66
+	android:name
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml:170:19-65
 uses-sdk
 INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/AndroidManifest.xml

@@ -23,8 +23,6 @@ import android.widget.TextView;
 
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
-import com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity;
-import com.example.josemanuelgarciacruz.ajedrezdidapp.MainActivity;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.R;
 
 import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
@@ -79,7 +77,7 @@ public class PlayerListFragment extends ListFragment
 
 		switch (item.getItemId()){
 			case G.INSERTAR:
-				Intent intent = new Intent(getActivity(), PlayerInsercionActivity.class);
+				Intent intent = new Intent(getActivity(), PlayerInsertarActivity.class);
 				startActivity(intent);
 				break;
 		}
@@ -145,12 +143,18 @@ public class PlayerListFragment extends ListFragment
 			switch (item.getItemId()){
 				case R.id.menu_borrar:
 					int playerId = (Integer)viewSeleccionado.getTag();
-					PlayerProveedor.delete(getActivity().getContentResolver(), playerId);
+					PlayerProveedor.deleteRecord(getActivity().getContentResolver(), playerId);
 					break;
 				case R.id.menu_editar:
+					Intent intent = new Intent(getActivity(), PlayerModificarActivity.class);
+                    playerId = (Integer)viewSeleccionado.getTag();
+					intent.putExtra(Contrato.Player._ID, playerId);
+					startActivity(intent);;
+
 					break;
 			}
 
+			mActionMode.finish();
 			return false;
 		}
 

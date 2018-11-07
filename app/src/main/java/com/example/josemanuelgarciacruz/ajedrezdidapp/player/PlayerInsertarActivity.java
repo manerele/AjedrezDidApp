@@ -6,14 +6,13 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
-import android.widget.Toolbar;
 
 import com.example.josemanuelgarciacruz.ajedrezdidapp.R;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.pojos.Player;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.PlayerProveedor;
 
-public class PlayerInsercionActivity extends AppCompatActivity {
+public class PlayerInsertarActivity extends AppCompatActivity {
 
     EditText editTextPlayerNombre;
     EditText editTextPlayerNacionalidad;
@@ -139,7 +138,7 @@ public class PlayerInsercionActivity extends AppCompatActivity {
         }
 
         Player player = new Player(G.SIN_VALOR_INT, nombre, nacionalidad, intYearNac, intYearDef, intElo);
-        PlayerProveedor.insert(getContentResolver(), player);
+        PlayerProveedor.insertRecord(getContentResolver(), player);
         finish();
 
 

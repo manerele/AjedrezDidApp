@@ -206,14 +206,14 @@ public class ProveedorDeContenido extends ContentProvider {
             getContext().getContentResolver().notifyChange(rowUri, null);
             return rowUri;
         }
-        throw new SQLException("Failed to insert row into " + uri);
+        throw new SQLException("Failed to insertRecord row into " + uri);
     }
 
 
     @Override
     public int delete(Uri uri, String selection, String[] selectionArgs) {
         sqlDB = dbHelper.getWritableDatabase();
-        // insert record in user table and get the row number of recently inserted record
+        // insertRecord record in user table and get the row number of recently inserted record
 
         String table = "";
         switch (sUriMatcher.match(uri)) {
@@ -232,7 +232,7 @@ public class ProveedorDeContenido extends ContentProvider {
             getContext().getContentResolver().notifyChange(uri, null);
             return rows;
         }
-        throw new SQLException("Failed to delete row into " + uri);
+        throw new SQLException("Failed to deleteRecord row into " + uri);
     }
 
     @Override
@@ -269,7 +269,7 @@ public class ProveedorDeContenido extends ContentProvider {
     public int update(Uri uri, ContentValues values, String selection,
                       String[] selectionArgs) {
         sqlDB = dbHelper.getWritableDatabase();
-        // insert record in user table and get the row number of recently inserted record
+        // insertRecord record in user table and get the row number of recently inserted record
 
         String table = "";
         switch (sUriMatcher.match(uri)) {
@@ -290,6 +290,6 @@ public class ProveedorDeContenido extends ContentProvider {
 
             return rows;
         }
-        throw new SQLException("Failed to update row into " + uri);
+        throw new SQLException("Failed to updateRecord row into " + uri);
     }
 }

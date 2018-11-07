@@ -34,7 +34,7 @@ public class PlayerActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), PlayerInsercionActivity.class);
+                Intent intent = new Intent(getApplicationContext(), PlayerInsertarActivity.class);
                 startActivity(intent);
 
             }
