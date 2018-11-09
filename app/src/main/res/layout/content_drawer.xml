@@ -53,8 +53,8 @@
 
     <Button
         android:id="@+id/buttonJugadores"
-        android:layout_width="192dp"
-        android:layout_height="111dp"
+        android:layout_width="328dp"
+        android:layout_height="109dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
