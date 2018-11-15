@@ -1,5 +1,7 @@
 package com.example.josemanuelgarciacruz.ajedrezdidapp.pojos;
 
+import android.graphics.Bitmap;
+
 import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
 
 /**
@@ -12,20 +14,31 @@ public class Player {
     private int yearNacimiento;
     private int yearDefuncion;
     private int elo;
+    private Bitmap imagen;
 
     public Player(){
         this.ID = G.SIN_VALOR_INT;
         this.nombre = G.SIN_VALOR_STRING;
         this.setNacionalidad(G.SIN_VALOR_STRING);
+        this.setImagen(null);
     };
 
-    public Player(int ID, String nombre, String nacionalidad, int yearNacimiento, int yearDefuncion, int elo) {
+    public Player(int ID, String nombre, String nacionalidad, int yearNacimiento, int yearDefuncion, int elo, Bitmap imagen) {
         this.ID = ID;
         this.nombre = nombre;
         this.setNacionalidad(nacionalidad);
         this.yearNacimiento = yearNacimiento;
         this.yearDefuncion = yearDefuncion;
         this.elo = elo;
+        this.imagen = imagen;
+    }
+
+    public Bitmap getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(Bitmap imagen) {
+        this.imagen = imagen;
     }
 
     public int getID() {

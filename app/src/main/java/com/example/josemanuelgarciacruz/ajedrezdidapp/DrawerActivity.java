@@ -1,7 +1,10 @@
 package com.example.josemanuelgarciacruz.ajedrezdidapp;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentActivity;
@@ -15,11 +18,21 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
 
+import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.Utilidades;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity;
+
+import java.io.IOException;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
+    final int PETICION_SACAR_FOTO = 1;
+    final int PETICION_GALERIA = 2;
+    ImageView imageViewImagen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +81,37 @@ public class DrawerActivity extends AppCompatActivity
             }
         });
 
+        Button buttonCamara = (Button) findViewById(R.id.buttonCamara);
+        buttonCamara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sacarFoto();
+            }
+        });
+
+
+        Button buttonGaleria = (Button) findViewById(R.id.buttonGaleria);
+        buttonGaleria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                elegirDeGaleria();
+            }
+        });
+
+        imageViewImagen = (ImageView) findViewById(R.id.image_view_imagen);
+
+    }
+
+    void sacarFoto(){
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(intent, PETICION_SACAR_FOTO);
+    }
+
+    void elegirDeGaleria(){
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.setType("image/*");
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        startActivityForResult(intent, PETICION_GALERIA);
     }
 
     @Override
@@ -136,20 +180,6 @@ public class DrawerActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        /* Version anterior
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-        Fin version anterior */
-
         if (id == R.id.nav_fragmentos) {
             Intent intent = new Intent(getApplicationContext(), SeccionesActivity.class);
             startActivity(intent);
@@ -185,5 +215,36 @@ public class DrawerActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        switch (requestCode){
+            case PETICION_SACAR_FOTO:
+                if (resultCode == RESULT_OK){
+                    Bitmap foto = (Bitmap) data.getExtras().get("data");
+                    imageViewImagen.setImageBitmap(foto);
+                    try {
+                        Utilidades.storeImage(foto,this, "imagen.jpg");
+                    } catch (IOException e){
+                        Toast.makeText(getApplicationContext(), "Error: No se pudo guardar la imagen", Toast.LENGTH_SHORT).show();
+                    }
+
+                } else {
+                    // cancelacion
+                }
+                break;
+            case PETICION_GALERIA:
+                if (resultCode == RESULT_OK){
+                    Uri uri = data.getData();
+                    imageViewImagen.setImageURI(uri);
+                } else {
+                    // Cancelacion
+                }
+                break;
+        }
+
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }

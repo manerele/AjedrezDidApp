@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_TAREA_4_FOTOS/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_TAREA_4_FOTOS/app/src/debug/shaders"/></dataSet></merger>

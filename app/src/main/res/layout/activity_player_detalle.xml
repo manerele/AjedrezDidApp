@@ -38,13 +38,13 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp">
+            android:layout_marginTop="8dp">
 
             <EditText
+                android:id="@+id/editTextPlayerNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/player_nombre"
-                android:id="@+id/editTextPlayerNombre"/>
+                android:hint="@string/player_nombre" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -94,6 +94,39 @@
                 android:id="@+id/editTextPlayerElo"/>
         </android.support.design.widget.TextInputLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/image_view_ciclo"
+                android:src="@drawable/ic_add_a_photo_black_24dp"
+                android:layout_weight="9"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/ic_camera"
+                    android:id="@+id/imagen_button_camara"/>
+
+                <ImageButton
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/ic_galeria"
+                    android:id="@+id/imagen_button_galeria"/>
+            </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

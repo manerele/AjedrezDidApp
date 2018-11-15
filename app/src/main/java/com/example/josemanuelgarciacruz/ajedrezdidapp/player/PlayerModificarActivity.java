@@ -158,7 +158,7 @@ public class PlayerModificarActivity extends AppCompatActivity {
             return;
         }
 
-        Player player = new Player(playerId, nombre, nacionalidad, intYearNac, intYearDef, intElo);
+        Player player = new Player(playerId, nombre, nacionalidad, intYearNac, intYearDef, intElo, null);
         PlayerProveedor.updateRecord(getContentResolver(), player);
         finish();
 
