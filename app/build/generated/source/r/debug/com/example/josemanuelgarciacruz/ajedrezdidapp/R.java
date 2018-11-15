@@ -4834,8 +4834,8 @@ public final class R {
     public static final int image=0x7f080081;
     public static final int imageViewPortada=0x7f080082;
     public static final int image_view=0x7f080083;
-    public static final int image_view_ciclo=0x7f080084;
-    public static final int image_view_imagen=0x7f080085;
+    public static final int image_view_imagen=0x7f080084;
+    public static final int image_view_player=0x7f080085;
     public static final int imagen_button_camara=0x7f080086;
     public static final int imagen_button_galeria=0x7f080087;
     public static final int info=0x7f080088;

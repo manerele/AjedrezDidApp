@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1542278870875"
+    timestamp="1542299570088"
     token="5243718415500387669"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,7 +25,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1542275437180"
+        timestamp="1542297178290"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_TAREA_4_FOTOS/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -70,7 +70,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="METHOD_DELETED"
-        timestamp="1542278830922"
+        timestamp="1542299388610"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_TAREA_4_FOTOS/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -81,7 +81,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1542278870875"
+        timestamp="1542299570088"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -41,7 +41,7 @@ public class PlayerProveedor {
         resolver.delete(uri, null, null);
     }
 
-    public static void updateRecord(ContentResolver resolver, Player player){
+    public static void updateRecord(ContentResolver resolver, Player player, Context contexto){
         Uri uri = Uri.parse(Contrato.Player.CONTENT_URI + "/" + player.getID());
 
         ContentValues values = new ContentValues();
@@ -53,6 +53,14 @@ public class PlayerProveedor {
         values.put(Contrato.Player.ELO, player.getElo());
 
         resolver.update(uri, values, null, null);
+
+        if (player.getImagen() != null) {
+            try {
+                Utilidades.storeImage(player.getImagen(), contexto, "img_" + player.getID() + ".jpg");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     static public Player readRecord(ContentResolver resolver, int playerId){

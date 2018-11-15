@@ -3,7 +3,6 @@ package com.example.josemanuelgarciacruz.ajedrezdidapp.player;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
-import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,23 +13,21 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.example.josemanuelgarciacruz.ajedrezdidapp.R;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
-import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.Utilidades;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.pojos.Player;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.PlayerProveedor;
-
-import java.io.IOException;
 
 public class PlayerInsertarActivity extends AppCompatActivity {
 
     final int PETICION_SACAR_FOTO = 1;
     final int PETICION_GALERIA = 2;
     ImageView imageViewPlayer;
-
     Bitmap foto = null;
+
+    final int PETICION_CAPTURAR_IMAGEN = 1;
+    final int PETICION_ESCOGER_IMAGEN_DE_GALERIA = 2;
 
     EditText editTextPlayerNombre;
     EditText editTextPlayerNacionalidad;
@@ -53,9 +50,10 @@ public class PlayerInsertarActivity extends AppCompatActivity {
         editTextPlayerYearDef = (EditText) findViewById(R.id.editTextPlayerYearDef);
         editTextPlayerElo = (EditText) findViewById(R.id.editTextPlayerElo);
 
-        imageViewPlayer = (ImageView) findViewById(R.id.image_view_ciclo);
+        imageViewPlayer = (ImageView) findViewById(R.id.image_view_player);
 
-        ImageButton imageButtonCamara = (ImageButton) findViewById(R.id.imagen_button_camara);
+        //final ImageButton imageButtonCamara = (ImageButton) findViewById(R.id.imagen_button_camara);
+        final ImageButton imageButtonCamara = (ImageButton) findViewById(R.id.imagen_button_camara);
         imageButtonCamara.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,7 +61,7 @@ public class PlayerInsertarActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtonGaleria = (ImageButton) findViewById(R.id.imagen_button_galeria);
+        final ImageButton imageButtonGaleria = (ImageButton) findViewById(R.id.imagen_button_galeria);
         imageButtonGaleria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,32 +87,23 @@ public class PlayerInsertarActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         switch (requestCode){
-            case PETICION_SACAR_FOTO:
-                if (resultCode == RESULT_OK){
-                    Bitmap foto = (Bitmap) data.getExtras().get("data");
+            case PETICION_CAPTURAR_IMAGEN:
+                if(resultCode == RESULT_OK){
+                    foto = (Bitmap) data.getExtras().get("data");
                     imageViewPlayer.setImageBitmap(foto);
+                } else {
+                    //El usuario canceló la toma de la foto
+                }
+                break;
+            case PETICION_ESCOGER_IMAGEN_DE_GALERIA:
+                if(resultCode == RESULT_OK){
+                    imageViewPlayer.setImageURI(data.getData());
                     foto = ((BitmapDrawable) imageViewPlayer.getDrawable()).getBitmap();
-                    try {
-                        Utilidades.storeImage(foto, this, "imagen.jpg");
-                    } catch (IOException e){
-                        Toast.makeText(getApplicationContext(), "Error: No se pudo guardar la imagen", Toast.LENGTH_SHORT).show();
-                    }
-
                 } else {
-                    // cancelacion
+                    //El usuario canceló la toma de la foto
                 }
-                break;
-            case PETICION_GALERIA:
-                if (resultCode == RESULT_OK){
-                    Uri uri = data.getData();
-                    imageViewPlayer.setImageURI(uri);
-                } else {
-                    // Cancelacion
-                }
-                break;
         }
-
-        //super.onActivityResult(requestCode, resultCode, data);
+        super.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override
@@ -212,7 +201,5 @@ public class PlayerInsertarActivity extends AppCompatActivity {
         Player player = new Player(G.SIN_VALOR_INT, nombre, nacionalidad, intYearNac, intYearDef, intElo, foto);
         PlayerProveedor.insertRecord(getContentResolver(), player, this);
         finish();
-
-
     }
 }

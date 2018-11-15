@@ -26,8 +26,11 @@ import com.amulyakhare.textdrawable.util.ColorGenerator;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.R;
 
 import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.G;
+import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.Utilidades;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.Contrato;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.PlayerProveedor;
+
+import java.io.FileNotFoundException;
 
 public class PlayerListFragment extends ListFragment
 		implements LoaderManager.LoaderCallbacks<Cursor> {
@@ -234,13 +237,21 @@ public class PlayerListFragment extends ListFragment
 			TextView textViewYearElo = (TextView) view.findViewById(R.id.textview_player_list_item_elo);
 			textViewYearElo.setText(String.valueOf(etiElo + yearElo));
 
-			ColorGenerator generator = ColorGenerator.MATERIAL; // or use DEFAULT
-			int color = generator.getColor(nacionalidad); //Genera un color según el nombre
-			TextDrawable drawable = TextDrawable.builder()
-					.buildRound(nacionalidad.substring(0,1), color);
-
 			ImageView image = (ImageView) view.findViewById(R.id.image_view);
-			image.setImageDrawable(drawable);
+
+			try {
+				Utilidades.loadImageFromStorage(getActivity(), "img_" + ID +  ".jpg", image);
+			} catch (FileNotFoundException e) {
+				ColorGenerator generator = ColorGenerator.MATERIAL; // or use DEFAULT
+				int color = generator.getColor(nacionalidad); //Genera un color según el nombre
+				TextDrawable drawable = TextDrawable.builder()
+						.buildRound(nacionalidad.substring(0,1), color);
+				image.setImageDrawable(drawable);
+			}
+
+
+
+
 
 			view.setTag(ID);
 
