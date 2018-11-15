@@ -2,6 +2,7 @@ package com.example.josemanuelgarciacruz.ajedrezdidapp.player;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
@@ -28,6 +29,8 @@ public class PlayerInsertarActivity extends AppCompatActivity {
     final int PETICION_SACAR_FOTO = 1;
     final int PETICION_GALERIA = 2;
     ImageView imageViewPlayer;
+
+    Bitmap foto = null;
 
     EditText editTextPlayerNombre;
     EditText editTextPlayerNacionalidad;
@@ -90,6 +93,7 @@ public class PlayerInsertarActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK){
                     Bitmap foto = (Bitmap) data.getExtras().get("data");
                     imageViewPlayer.setImageBitmap(foto);
+                    foto = ((BitmapDrawable) imageViewPlayer.getDrawable()).getBitmap();
                     try {
                         Utilidades.storeImage(foto, this, "imagen.jpg");
                     } catch (IOException e){
@@ -205,8 +209,8 @@ public class PlayerInsertarActivity extends AppCompatActivity {
             return;
         }
 
-        Player player = new Player(G.SIN_VALOR_INT, nombre, nacionalidad, intYearNac, intYearDef, intElo, null);
-        PlayerProveedor.insertRecord(getContentResolver(), player);
+        Player player = new Player(G.SIN_VALOR_INT, nombre, nacionalidad, intYearNac, intYearDef, intElo, foto);
+        PlayerProveedor.insertRecord(getContentResolver(), player, this);
         finish();
 
 

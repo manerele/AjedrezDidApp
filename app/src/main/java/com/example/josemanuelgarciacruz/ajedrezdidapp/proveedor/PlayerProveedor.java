@@ -2,13 +2,18 @@ package com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
+import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
+import android.widget.Toast;
 
+import com.example.josemanuelgarciacruz.ajedrezdidapp.constantes.Utilidades;
 import com.example.josemanuelgarciacruz.ajedrezdidapp.pojos.Player;
 
+import java.io.IOException;
+
 public class PlayerProveedor {
-    public static void insertRecord(ContentResolver resolver, Player player){
+    public static void insertRecord(ContentResolver resolver, Player player, Context contexto){
 
         Uri uri = Contrato.Player.CONTENT_URI;
         ContentValues values = new ContentValues();
@@ -18,8 +23,17 @@ public class PlayerProveedor {
         values.put(Contrato.Player.YEAR_DEF, player.getYearDefuncion());
         values.put(Contrato.Player.ELO, player.getElo());
 
+        Uri uriResultado = resolver.insert(uri, values);
 
-        resolver.insert(uri, values);
+        String playerId = uriResultado.getLastPathSegment();
+
+        if (player.getImagen() != null){
+            try{
+                Utilidades.storeImage(player.getImagen(), contexto, "img_" + playerId + ".jpg");
+            } catch (IOException e) {
+                Toast.makeText(contexto, "No se pudo guardar la imagen", Toast.LENGTH_LONG).show();
+            }
+        }
     }
 
     static public void deleteRecord(ContentResolver resolver, int playerId){
