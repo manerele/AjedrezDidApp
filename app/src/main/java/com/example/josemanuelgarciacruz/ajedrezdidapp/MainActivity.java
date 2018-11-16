@@ -62,6 +62,11 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // =====================================================================
+        /* Dehabilito este fragmento para no tenere que introducir
+           los códigos y comprobar nás ráòdamente el funcionamiento
+           de la aplicación.
+
         if (TextUtils.isEmpty(nombre)){
             editTextNombre.setError(getString(R.string.error_campo_obligatorio));
             editTextNombre.requestFocus();
@@ -92,6 +97,8 @@ public class MainActivity extends AppCompatActivity {
             editTextClave.requestFocus();
             return;
         }
+        */
+        // =====================================================================
 
         /* Cambio para que vaya a DrowerActivity
         Intent intent = new Intent(contexto, IndiceActivity.class);

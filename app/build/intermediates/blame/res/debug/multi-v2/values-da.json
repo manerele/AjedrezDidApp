@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_TAREA_4_FOTOS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d459a9ccb1b27745d458a3683dad1f93/res/values-da/values-da.xml",
