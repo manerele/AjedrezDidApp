@@ -100,6 +100,17 @@ public class DrawerActivity extends AppCompatActivity
 
         imageViewImagen = (ImageView) findViewById(R.id.image_view_imagen);
 
+        Button buttonDescargar = (Button) findViewById(R.id.buttonDescargar);
+        buttonDescargar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), DescargaArchivoActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
     void sacarFoto(){

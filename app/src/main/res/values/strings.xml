@@ -424,6 +424,7 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
     <string name="buttonJugadores">J U G A D O R E S</string>
 
     <string name="title_player_detalle_activity">Detalle Activity</string>
+    <string name="title_activity_descarga_archivo">Descarga de Archivo</string>
 
 
 </resources>
