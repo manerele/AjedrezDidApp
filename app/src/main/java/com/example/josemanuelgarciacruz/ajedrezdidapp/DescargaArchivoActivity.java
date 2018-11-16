@@ -1,5 +1,6 @@
 package com.example.josemanuelgarciacruz.ajedrezdidapp;
 
+import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -59,7 +60,13 @@ public class DescargaArchivoActivity extends AppCompatActivity implements View.O
 
     void descargarPdf(){
         String urlADescargar = "https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/wp-content/uploads/sites/137/2015/11/tablaDeConvalidaciones-20151019-2124.pdf";
-        new DescargarPdfAsyncTask().execute(urlADescargar);
+        ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        progressDialog.setMessage("Descargando PDF....");
+
+
+        new DescargarPdfAsyncTask(progressDialog).execute(urlADescargar);
 
     }
 
@@ -71,11 +78,18 @@ public class DescargaArchivoActivity extends AppCompatActivity implements View.O
         - El segundo se lo pasamos al onProgressUpdate
         - El tercero se lo pasamos al onPostExecute
      */
-    class DescargarPdfAsyncTask extends AsyncTask<String, Void, String>{
+    class DescargarPdfAsyncTask extends AsyncTask<String, Integer, String>{
+
+        ProgressDialog progressDialog;
+
+        DescargarPdfAsyncTask (ProgressDialog progressDialog){
+            this.progressDialog = progressDialog;
+        }
 
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
+            progressDialog.show();
         }
 
         @Override
@@ -99,11 +113,17 @@ public class DescargaArchivoActivity extends AppCompatActivity implements View.O
                 String rutaFicheroGuardado = getFilesDir() + "/files" + "TabladeDeConvalidaciones.pdf";
                 outputStream = new FileOutputStream(rutaFicheroGuardado);
 
+                int tamanyoFichero = conexion.getContentLength();
                 byte [] data = new byte[1024];
                 int count = 0;
+                int total = 0;
 
                 while ((count = inputStream.read(data)) != -1) {
+                    java.lang.Thread.sleep(100);
                     outputStream.write(data, 0, count);
+
+                    total += count;
+                    publishProgress((int) (total *  100 / tamanyoFichero));
 
                 }
 
@@ -113,6 +133,8 @@ public class DescargaArchivoActivity extends AppCompatActivity implements View.O
             } catch (IOException e) {
                 e.printStackTrace();
                 return "Error: " + e.getMessage();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             } finally {
                 try {
                     if(inputStream != null) inputStream.close();
@@ -126,14 +148,18 @@ public class DescargaArchivoActivity extends AppCompatActivity implements View.O
         }
 
         @Override
-        protected void onProgressUpdate(Void... values) {
+        protected void onProgressUpdate(Integer... values) {
 
             super.onProgressUpdate(values);
+            progressDialog.setIndeterminate(false);
+            progressDialog.setMax(100);
+            progressDialog.setProgress(values[0]);
         }
 
         @Override
         protected void onPostExecute(String mensaje) {
             super.onPostExecute(mensaje);
+            progressDialog.dismiss();
 
             Toast.makeText(getApplicationContext(), mensaje, Toast.LENGTH_LONG).show();
         }
