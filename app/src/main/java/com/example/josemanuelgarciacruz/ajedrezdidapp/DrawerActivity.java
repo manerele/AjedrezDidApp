@@ -100,6 +100,17 @@ public class DrawerActivity extends AppCompatActivity
 
         imageViewImagen = (ImageView) findViewById(R.id.image_view_imagen);
 
+        Button buttonGoogleMaps = (Button) findViewById(R.id.buttonGoogleMaps);
+        buttonGoogleMaps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), GoogleMapsActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
         Button buttonDescargar = (Button) findViewById(R.id.buttonDescargar);
         buttonDescargar.setOnClickListener(new View.OnClickListener() {
             @Override

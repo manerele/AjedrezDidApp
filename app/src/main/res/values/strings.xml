@@ -425,6 +425,7 @@ puntualmente a algún jugador destacado, que podría ser de categorías de promo
 
     <string name="title_player_detalle_activity">Detalle Activity</string>
     <string name="title_activity_descarga_archivo">Descarga de Archivo</string>
+    <string name="title_activity_google_maps">Map</string>
 
 
 </resources>
