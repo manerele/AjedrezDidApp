@@ -39,8 +39,17 @@ public class GoogleMapsActivity extends FragmentActivity implements OnMapReadyCa
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        //LatLng sydney = new LatLng(-34, 151);
+        //mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        //mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        LatLng canarias = new LatLng(29.146667, -13.498333);
+        mMap.addMarker(new MarkerOptions().position(canarias).title("Marker in Canarias"));
+
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(canarias));
     }
 }
+/*
+    Minuto 13:54
+ */

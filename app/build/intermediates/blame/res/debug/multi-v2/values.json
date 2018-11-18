@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/fc20c07aec8ae189b232f175b3c247a7/res/values/values.xml",
@@ -40,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/src/main/res/values/strings.xml",
+                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4,7,1,6,5",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "130,188,352,16,302,244",
+                        "endColumns": "57,55,48,41,49,57",
+                        "endOffsets": "183,239,396,53,347,297"
+                    },
+                    "to": {
+                        "startLines": "778,779,780,837,899,900",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "72333,72391,72447,76131,80020,80070",
+                        "endColumns": "57,55,48,41,49,57",
+                        "endOffsets": "72386,72442,72491,76168,80065,80123"
+                    }
+                },
+                {
+                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "375,37,1,423,38,3,414,33,20,30,26,25,27,32,34,31,407,2,394,393,374,373,372,371,370,19,421,418,417,420,419,415,43,44,45,46,47,48,49,50,51,377,21,413,385,386,387,381,388,383,382,389,384,380,410,169,228,288,40,56,330,103,77,354,135,39,395,398,12,7,13,426,369,427,8,16,6,14,10,9,15,376,11,425,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -56,23 +73,6 @@
                         "endLines": "1027,1028,1029,1032,1033,1034,1035,1038,1039,1060,1061,1062,1063,1064,1065,1066,1070,1072,1073,1074,1076,1077,1078,1079,1080,1081,1087,1088,1089,1090,1091,1092,1093,1094,1095,1096,1097,1098,1099,1100,1101,1103,1104,1105,1107,1108,1109,1110,1111,1112,1113,1114,1115,1116,1117,1174,1232,1272,1273,1292,1314,1344,1368,1382,1414,1415,1416,1422,1423,1424,1425,1426,1427,1428,1429,1430,1431,1432,1433,1434,1435,1436,1437,1438,1439",
                         "endColumns": "52,60,50,61,54,50,59,70,39,75,63,69,80,56,46,51,69,46,92,102,61,74,74,75,73,42,42,59,48,56,58,67,54,61,63,57,51,66,67,53,75,73,47,48,55,82,78,61,59,79,75,71,67,67,63,13,13,13,79,13,13,13,13,13,13,35,71,13,62,72,85,79,65,58,68,62,67,66,86,82,78,71,74,74,43",
                         "endOffsets": "87973,88034,88085,88413,88468,88519,88579,88841,88881,91705,91769,91839,91920,91977,92024,92076,92589,92784,92877,92980,93123,93198,93273,93349,93423,93466,94311,94371,94420,94477,94536,94604,94659,94721,94785,94843,94895,94962,95030,95084,95160,95287,95335,95384,95511,95594,95673,95735,95795,95875,95951,96023,96091,96159,96223,99423,100915,102371,102451,103501,104776,106491,107376,108101,109928,109964,110036,110286,110349,110422,110508,110588,110654,110713,110782,110845,110913,110980,111067,111150,111229,111301,111376,111451,111495"
-                    }
-                },
-                {
-                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/src/main/res/values/drawables.xml",
-                    "from": {
-                        "startLines": "1,2,4,6,5,3",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "75,163,347,521,435,253",
-                        "endColumns": "87,89,87,83,85,93",
-                        "endOffsets": "158,248,430,600,516,342"
-                    },
-                    "to": {
-                        "startLines": "928,929,930,931,932,933",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "81771,81859,81949,82037,82121,82207",
-                        "endColumns": "87,89,87,83,85,93",
-                        "endOffsets": "81854,81944,82032,82116,82202,82296"
                     }
                 },
                 {
@@ -114,23 +114,6 @@
                     }
                 },
                 {
-                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/src/debug/res/values/google_maps_api.xml",
-                    "from": {
-                        "startLines": "22",
-                        "startColumns": "4",
-                        "startOffsets": "914",
-                        "endColumns": "138",
-                        "endOffsets": "1048"
-                    },
-                    "to": {
-                        "startLines": "1069",
-                        "startColumns": "4",
-                        "startOffsets": "92385",
-                        "endColumns": "138",
-                        "endOffsets": "92519"
-                    }
-                },
-                {
                     "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/dd85296701712dd819603d75f270e9b2/res/values/values.xml",
                     "from": {
                         "startLines": "2,5,6,7,8,10,11,12,13,14",
@@ -148,22 +131,37 @@
                     }
                 },
                 {
-                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/src/main/res/values/styles.xml",
+                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/res/values/drawables.xml",
                     "from": {
-                        "startLines": "3,22,10,24,17",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "54,764,374,856,652",
-                        "endLines": "8,22,15,24,19",
-                        "endColumns": "12,90,12,80,12",
-                        "endOffsets": "368,850,646,932,757"
+                        "startLines": "1,2,4,6,5,3",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "75,163,347,521,435,253",
+                        "endColumns": "87,89,87,83,85,93",
+                        "endOffsets": "158,248,430,600,516,342"
                     },
                     "to": {
-                        "startLines": "1449,1455,1456,1462,3795",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "112219,112538,112628,112905,267158",
-                        "endLines": "1454,1455,1461,1462,3797",
-                        "endColumns": "12,89,12,79,12",
-                        "endOffsets": "112533,112623,112900,112980,267263"
+                        "startLines": "928,929,930,931,932,933",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "81771,81859,81949,82037,82121,82207",
+                        "endColumns": "87,89,87,83,85,93",
+                        "endOffsets": "81854,81944,82032,82116,82202,82296"
+                    }
+                },
+                {
+                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "192,193,194",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "9973,10019,10066",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "10014,10061,10112"
                     }
                 },
                 {
@@ -239,20 +237,20 @@
                     }
                 },
                 {
-                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/src/main/res/values/colors.xml",
+                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/debug/res/values/google_maps_api.xml",
                     "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "914",
+                        "endColumns": "138",
+                        "endOffsets": "1048"
                     },
                     "to": {
-                        "startLines": "192,193,194",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "9973,10019,10066",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "10014,10061,10112"
+                        "startLines": "1069",
+                        "startColumns": "4",
+                        "startOffsets": "92385",
+                        "endColumns": "138",
+                        "endOffsets": "92519"
                     }
                 },
                 {
@@ -292,20 +290,22 @@
                     }
                 },
                 {
-                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/src/main/res/values/dimens.xml",
+                    "source": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "3,4,7,1,6,5",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "130,188,352,16,302,244",
-                        "endColumns": "57,55,48,41,49,57",
-                        "endOffsets": "183,239,396,53,347,297"
+                        "startLines": "3,22,10,24,17",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "54,764,374,856,652",
+                        "endLines": "8,22,15,24,19",
+                        "endColumns": "12,90,12,80,12",
+                        "endOffsets": "368,850,646,932,757"
                     },
                     "to": {
-                        "startLines": "778,779,780,837,899,900",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "72333,72391,72447,76131,80020,80070",
-                        "endColumns": "57,55,48,41,49,57",
-                        "endOffsets": "72386,72442,72491,76168,80065,80123"
+                        "startLines": "1449,1455,1456,1462,3795",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "112219,112538,112628,112905,267158",
+                        "endLines": "1454,1455,1461,1462,3797",
+                        "endColumns": "12,89,12,79,12",
+                        "endOffsets": "112533,112623,112900,112980,267263"
                     }
                 }
             ]

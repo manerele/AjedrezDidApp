@@ -1,4 +1,4 @@
-#Sat Nov 17 19:50:27 WET 2018
-base.0=/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_3_GoogleMaps/app/build/intermediates/transforms/dexMerger/debug/3
+#Sat Nov 17 20:24:07 WET 2018
+base.0=/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex
