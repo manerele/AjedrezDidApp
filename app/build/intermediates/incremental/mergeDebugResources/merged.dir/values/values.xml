@@ -1435,8 +1435,10 @@ centros escolares.
     <string name="title_activity_objetivos_generales">Objetivos Generales</string>
     <string name="title_activity_otras_actividades">Otras Actividades</string>
     <string name="title_activity_secciones">Secciones Activity</string>
+    <string name="title_activity_tabbed_google">TabbedGoogleActivity</string>
     <string name="title_activity_temporalizacion">Temporalizacion</string>
     <string name="title_player_detalle_activity">Detalle Activity</string>
+    <string name="titulo_gooble_maps">Google Maps</string>
     <string name="validar">Validar</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

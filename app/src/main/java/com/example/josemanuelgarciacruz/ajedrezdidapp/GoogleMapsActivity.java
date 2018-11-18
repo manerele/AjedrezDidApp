@@ -50,6 +50,3 @@ public class GoogleMapsActivity extends FragmentActivity implements OnMapReadyCa
         mMap.moveCamera(CameraUpdateFactory.newLatLng(canarias));
     }
 }
-/*
-    Minuto 13:54
- */

@@ -105,7 +105,7 @@ public class DrawerActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), GoogleMapsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), TabbedGoogleActivity.class);
                 startActivity(intent);
 
             }

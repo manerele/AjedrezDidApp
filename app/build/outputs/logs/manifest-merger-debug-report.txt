@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d459a9ccb1b27745d458a3683dad1f93/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b702b92e290184af3ed572f043f28b4a/AndroidManifest.xml:2:1-11:12
@@ -42,35 +42,35 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/josemanuelgarciacru
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/10284b6799af1a674ae48a2bb6cb6d6d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b5ab9dac76ec181c934f304de62eab48/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ba8201d3e240a48413e92889ba60e38b/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
 	package
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:3:5-61
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:3:5-61
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:1-210:12
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:1-219:12
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-maps:9.6.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/fb1a1613baab2468d90072f6041ce411/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-maps:9.6.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/fb1a1613baab2468d90072f6041ce411/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:12:5-79
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:12:22-76
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:12:22-76
 application
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:13:5-208:19
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:15:5-217:19
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b702b92e290184af3ed572f043f28b4a/AndroidManifest.xml:9:5-20
@@ -92,235 +92,243 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/josemanuelga
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2db8f9ed6ce872b1171726ddfbeff3c1/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:19:9-40
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:21:9-40
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.MainActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:20:9-28:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:22:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:24:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:28:27-74
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.IndiceActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:37:9-40:60
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:39:9-42:60
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:40:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:42:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:39:13-35
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:41:13-35
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:38:13-43
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:40:13-43
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.ContenidosActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:41:9-49:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:43:9-51:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:44:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:46:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:43:13-62
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:45:13-62
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:45:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:47:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:42:13-47
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:44:13-47
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:46:13-48:97
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:48:13-50:97
 	android:value
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:48:17-94
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:50:17-94
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:47:17-63
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:49:17-63
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.IntroduccionActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:50:9-58:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:52:9-60:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:53:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:55:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:52:13-64
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:54:13-64
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:54:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:56:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:53:13-49
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.ObjetivosGeneralesActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:59:9-67:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:61:9-69:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:62:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:64:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:61:13-71
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:63:13-71
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:63:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:60:13-55
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:62:13-55
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.ObjetivosEspecificosActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:68:9-76:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:70:9-78:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:71:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:73:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:70:13-73
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:72:13-73
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:72:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:74:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:69:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:71:13-57
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.TemporalizacionActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:77:9-85:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:79:9-87:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:80:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:82:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:79:13-67
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:81:13-67
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:81:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:83:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:78:13-52
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:80:13-52
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.ActuacionActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:86:9-94:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:88:9-96:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:89:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:91:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:88:13-61
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:90:13-61
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:90:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:92:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:87:13-46
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:89:13-46
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.ContenidosMedioActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:95:9-103:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:97:9-105:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:98:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:100:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:97:13-68
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:99:13-68
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:99:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:101:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:96:13-52
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:98:13-52
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.MetodologiaActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:104:9-112:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:106:9-114:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:107:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:109:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:106:13-63
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:108:13-63
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:108:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:110:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:105:13-48
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:107:13-48
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.OtrasActividadesActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:113:9-121:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:115:9-123:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:116:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:118:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:115:13-69
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:117:13-69
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:117:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:119:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:114:13-53
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:116:13-53
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.LoginActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:122:9-130:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:124:9-132:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:125:13-55
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:127:13-55
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:124:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:126:13-57
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:126:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:128:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:123:13-42
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:125:13-42
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.DrawerActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:131:9-139:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:133:9-141:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:134:13-55
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:136:13-55
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:133:13-58
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:135:13-58
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:135:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:137:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:132:13-43
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:134:13-43
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.SeccionesActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:140:9-148:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:142:9-150:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:143:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:145:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:142:13-61
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:144:13-61
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:144:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:146:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:141:13-46
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:143:13-46
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:149:9-159:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:151:9-161:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:152:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:154:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:151:13-44
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:153:13-44
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:153:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:155:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:150:13-50
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:152:13-50
 provider#com.example.josemanuelgarciacruz.ajedrezdidapp.proveedor.ProveedorDeContenido
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:161:9-165:39
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:163:9-167:39
 	android:enabled
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:164:13-35
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:166:13-35
 	android:authorities
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:163:13-112
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:165:13-112
 	android:exported
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:165:13-36
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:167:13-36
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:162:13-59
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:164:13-59
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerInsertarActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:167:9-174:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:169:9-176:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:170:13-64
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:172:13-64
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:169:13-66
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:171:13-66
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:168:13-58
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:170:13-58
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.player.PlayerModificarActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:175:9-182:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:177:9-184:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:178:13-64
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:180:13-64
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:177:13-66
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:179:13-66
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:176:13-59
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:178:13-59
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.DescargaArchivoActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:183:9-191:20
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:185:9-193:20
 	android:parentActivityName
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:186:13-57
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:188:13-57
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:185:13-68
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:187:13-68
 	android:theme
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:187:13-56
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:189:13-56
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:184:13-52
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:186:13-52
 uses-library#org.apache.http.legacy
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:200:9-88
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:202:9-204:40
 	android:required
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:200:61-85
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:204:13-37
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:200:23-60
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:203:13-50
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:201:9-203:55
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:206:9-208:55
 	android:value
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:203:13-52
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:208:13-52
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:202:13-58
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:207:13-58
 activity#com.example.josemanuelgarciacruz.ajedrezdidapp.GoogleMapsActivity
-ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:205:9-207:75
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:210:9-212:66
 	android:label
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:207:13-63
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:212:13-63
 	android:name
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml:206:13-47
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:211:13-47
+activity#com.example.josemanuelgarciacruz.ajedrezdidapp.TabbedGoogleActivity
+ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:213:9-216:68
+	android:label
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:215:13-65
+	android:theme
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:216:13-56
+	android:name
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml:214:13-49
 uses-sdk
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/940bec8aa89cfae3d7d302d4a17710aa/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d459a9ccb1b27745d458a3683dad1f93/AndroidManifest.xml:20:5-44
@@ -397,16 +405,16 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/josemanuelgarcia
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b5ab9dac76ec181c934f304de62eab48/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ba8201d3e240a48413e92889ba60e38b/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ba8201d3e240a48413e92889ba60e38b/AndroidManifest.xml:20:5-44
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_4_GoogleMaps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:9.6.0] /Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/fb1a1613baab2468d90072f6041ce411/AndroidManifest.xml:19:5-78
 	android:name
