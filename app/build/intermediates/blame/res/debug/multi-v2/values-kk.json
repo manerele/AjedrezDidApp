@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
+            "outputFile": "/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Entrega_Final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "/Users/josemanuelgarciacruz/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/9b455182661407c0d1a169ed8ca2dddb/res/values-kk/values.xml",

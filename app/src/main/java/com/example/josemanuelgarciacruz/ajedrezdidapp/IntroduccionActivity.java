@@ -26,6 +26,9 @@ public class IntroduccionActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        // Para que aparezca flecha atras.
+        // Tambien hay que hacer cambios en Manifest
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         /* Con esto coseguimos hacer el scroll dentro del texto muy largo*/

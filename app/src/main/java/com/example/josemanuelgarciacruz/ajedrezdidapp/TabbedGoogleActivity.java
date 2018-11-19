@@ -71,6 +71,10 @@ public class TabbedGoogleActivity extends AppCompatActivity {
             }
         });
 
+        // Para que aparezca flecha atras.
+        // Tambien hay que hacer cambios en Manifest
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 

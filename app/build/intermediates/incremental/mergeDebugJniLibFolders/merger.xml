@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Quinta _Entrega_6_GoogleMaps_TresPestañas/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Entrega_Final/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/josemanuelgarciacruz/AndroidStudioProjects/AjedrezDidApp_Entrega_Final/app/src/debug/jniLibs"/></dataSet></merger>
